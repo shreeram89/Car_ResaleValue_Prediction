@@ -1,0 +1,1501 @@
+Brand,Model,Car_Age,KM_Driven,Fuel_Type,Transmission,Showroom_Price,Resale_Price
+Skoda,Kodiaq,9,75611,Diesel,Manual,4381183,1205000
+Mahindra,XUV400,7,85059,Diesel,Automatic,1639201,439000
+Audi,Q5,9,85290,Diesel,Automatic,6857816,1311000
+Honda,Civic,3,45213,Diesel,Automatic,2224179,1478000
+Skoda,Superb,4,56332,Petrol,Manual,3731562,2063000
+Mercedes-Benz,E-Class,8,124138,Petrol,Automatic,7588044,1526000
+Tata,Punch,6,87185,Petrol,Automatic,732372,205000
+Skoda,Octavia,5,64149,Diesel,Automatic,2779851,1406000
+Audi,A4,4,41301,Petrol,Automatic,5248226,2727000
+Honda,Civic,8,129002,Petrol,Automatic,2332255,644000
+Mahindra,XUV400,1,15254,Petrol,Manual,1783731,1512000
+Audi,A4,9,81988,Petrol,Automatic,5148209,1331000
+Audi,A6,1,19171,Petrol,Automatic,6299387,5354000
+Tata,Tigor,8,105763,Diesel,Manual,755229,76000
+Volkswagen,Taigun,4,45296,Diesel,Automatic,1454914,807000
+Honda,WR-V,9,127028,Petrol,Manual,950284,95000
+Hyundai,Tucson,5,61328,Petrol,Automatic,3431610,1770000
+Audi,Q3,3,33914,Petrol,Automatic,4923769,3306000
+Volkswagen,Virtus,9,73642,Diesel,Automatic,1453755,284000
+Hyundai,Creta,9,85399,Petrol,Manual,1547724,338000
+Honda,WR-V,4,59617,Petrol,Manual,1040633,484000
+Maruti Suzuki,Alto,4,47769,Petrol,Automatic,492274,214000
+Mercedes-Benz,GLA,8,64967,Diesel,Automatic,4817378,1347000
+Volkswagen,Polo,2,25230,Diesel,Manual,767907,534000
+BMW,X3,9,100987,Diesel,Automatic,6825408,1316000
+Maruti Suzuki,Dzire,6,89546,Diesel,Manual,824193,189000
+Mercedes-Benz,GLE,9,75071,Petrol,Automatic,9827293,1901000
+Tata,Harrier,8,121888,Petrol,Manual,2207685,695000
+Skoda,Slavia,7,112130,Petrol,Automatic,1340861,387000
+Mahindra,XUV400,1,13194,Petrol,Manual,1680532,1428000
+BMW,X1,3,49223,Petrol,Automatic,5038189,3138000
+Tata,Harrier,2,22391,Petrol,Manual,2228397,1703000
+Honda,Amaze,5,56836,Petrol,Manual,930589,365000
+Tata,Safari,5,73777,Diesel,Manual,2526183,1124000
+Skoda,Kushaq,5,42052,Diesel,Automatic,1496329,828000
+Honda,Amaze,4,54621,Diesel,Manual,844824,402000
+BMW,7 Series,5,65791,Diesel,Automatic,14428169,5341000
+Skoda,Kushaq,3,44463,Petrol,Manual,1432442,918000
+Hyundai,Grand i10 Nios,1,8528,Diesel,Manual,648171,551000
+Mahindra,XUV700,5,78287,Petrol,Automatic,2352749,1103000
+BMW,X1,9,103195,Diesel,Automatic,5245902,851000
+Hyundai,Aura,9,89147,Petrol,Manual,813278,132000
+Mercedes-Benz,GLE,4,50227,Diesel,Automatic,9273959,4616000
+BMW,X5,3,37598,Petrol,Automatic,9602016,5920000
+Mercedes-Benz,GLA,1,12246,Petrol,Automatic,4762111,4026000
+Honda,Civic,2,22611,Diesel,Automatic,2419774,1943000
+Hyundai,Creta,8,108414,Petrol,Manual,1584322,366000
+Mahindra,Marazzo,1,11394,Diesel,Automatic,1399048,1141000
+Skoda,Superb,8,108278,Diesel,Automatic,3776037,1005000
+Audi,Q3,7,93986,Diesel,Automatic,4572833,1124000
+Tata,Harrier,8,85238,CNG,Manual,2161215,461000
+Maruti Suzuki,Brezza,6,74067,CNG,Manual,1071175,280000
+Mahindra,XUV700,9,141498,Petrol,Manual,2392565,671000
+Hyundai,Tucson,3,47226,Diesel,Manual,3090839,2006000
+Audi,Q5,10,89022,Diesel,Automatic,6479019,648000
+Mahindra,XUV300,4,57876,Diesel,Manual,1177765,567000
+Hyundai,Venue,6,75190,Petrol,Automatic,970684,332000
+Volkswagen,Tiguan,8,93423,Diesel,Automatic,3732387,1029000
+Volkswagen,Polo,5,73475,CNG,Manual,855705,285000
+Mercedes-Benz,GLC,3,31795,Diesel,Automatic,7730159,4131000
+Mahindra,XUV400,6,73148,Petrol,Automatic,1693968,750000
+Volkswagen,Polo,4,60316,Petrol,Manual,777403,391000
+Hyundai,Aura,9,134746,Petrol,Automatic,848416,87000
+Mercedes-Benz,GLE,3,42160,Diesel,Automatic,9881976,5416000
+Hyundai,Verna,4,62723,Diesel,Manual,1467645,676000
+Mercedes-Benz,GLA,7,105746,Petrol,Automatic,4566241,1321000
+Mahindra,XUV700,7,69243,Petrol,Manual,2613906,1036000
+Audi,A6,4,45678,Petrol,Automatic,6239632,3357000
+Skoda,Superb,6,59616,Petrol,Automatic,3618075,1785000
+BMW,7 Series,3,35717,Diesel,Automatic,15156101,9702000
+Audi,A6,6,73191,Diesel,Automatic,6176321,2111000
+Honda,Jazz,2,16642,Petrol,Manual,870878,639000
+Hyundai,Verna,8,74064,Petrol,Automatic,1488089,365000
+Honda,City,2,32989,Petrol,Automatic,1610235,1244000
+Audi,A4,7,74248,Petrol,Automatic,5193165,1460000
+Mercedes-Benz,GLC,9,121872,Petrol,Automatic,7673683,1242000
+BMW,5 Series,1,12682,Petrol,Automatic,7521087,6393000
+BMW,X3,8,84658,Petrol,Automatic,6733495,1393000
+Maruti Suzuki,WagonR,7,68408,Diesel,Automatic,613923,151000
+BMW,X3,6,60687,Diesel,Automatic,6812556,2411000
+Skoda,Slavia,6,74840,Diesel,Automatic,1357352,486000
+BMW,3 Series,6,90159,Petrol,Automatic,5196858,1793000
+Audi,Q7,9,134385,Petrol,Automatic,9121779,1454000
+Maruti Suzuki,Ertiga,2,31018,Petrol,Automatic,1087532,801000
+Audi,Q3,1,16116,Diesel,Automatic,4992984,4143000
+Audi,A6,6,56014,Petrol,Automatic,6559622,2298000
+Tata,Punch,10,83656,Diesel,Manual,822877,82000
+Maruti Suzuki,Dzire,8,103727,Diesel,Manual,797890,100000
+Audi,Q3,3,34682,Diesel,Automatic,4722921,2598000
+Tata,Tiago,10,123947,Petrol,Automatic,627962,63000
+Tata,Curvv,1,18446,Petrol,Manual,1351467,1123000
+Maruti Suzuki,Ertiga,9,138433,Petrol,Automatic,1130512,113000
+Honda,Civic,1,12778,Diesel,Manual,2282177,1940000
+Mercedes-Benz,E-Class,3,29623,Diesel,Automatic,8563698,4906000
+Skoda,Octavia,8,100456,Petrol,Automatic,2927300,859000
+Mercedes-Benz,GLC,3,31905,Petrol,Automatic,8063375,4679000
+BMW,7 Series,4,48515,Diesel,Automatic,16049466,7533000
+Skoda,Slavia,8,103338,Diesel,Manual,1352455,281000
+BMW,7 Series,1,14999,Petrol,Automatic,14834123,12609000
+Audi,A4,6,71560,Diesel,Automatic,4869955,1581000
+Hyundai,Grand i10 Nios,1,11241,Petrol,Automatic,663056,564000
+Maruti Suzuki,Alto,1,13437,Petrol,Automatic,443705,377000
+Skoda,Slavia,8,103835,Diesel,Automatic,1463656,322000
+Skoda,Slavia,4,30467,Diesel,Automatic,1392365,795000
+Audi,Q5,1,18568,Diesel,Automatic,7458013,6135000
+Honda,WR-V,10,99111,Petrol,Manual,1017927,157000
+Tata,Tigor,7,62270,Diesel,Automatic,723349,210000
+Audi,Q7,5,67815,Petrol,Automatic,9828504,4183000
+Volkswagen,Tiguan,5,81290,Petrol,Automatic,3590059,1810000
+Tata,Altroz,1,15695,Petrol,Automatic,866452,736000
+Maruti Suzuki,WagonR,10,104819,Petrol,Automatic,602233,60000
+Tata,Curvv,6,91277,Diesel,Automatic,1409514,434000
+Honda,Elevate,9,107242,Diesel,Manual,1417807,291000
+Tata,Curvv,9,75731,Petrol,Automatic,1444791,330000
+Maruti Suzuki,Swift,8,108106,Petrol,Manual,723116,107000
+Honda,Jazz,5,63203,Petrol,Automatic,870790,378000
+Mercedes-Benz,E-Class,1,13295,Petrol,Automatic,7768021,6304000
+Skoda,Kushaq,9,86220,Diesel,Automatic,1524713,274000
+Skoda,Octavia,1,7240,Diesel,Automatic,2907206,2403000
+BMW,X5,8,77302,Petrol,Automatic,9909376,2071000
+Mercedes-Benz,C-Class,5,58299,Petrol,Automatic,5762220,2161000
+Mercedes-Benz,C-Class,3,43375,Diesel,Automatic,5858572,3498000
+Tata,Punch,7,83747,Diesel,Manual,820581,169000
+Skoda,Slavia,7,110634,Petrol,Manual,1383658,397000
+Maruti Suzuki,WagonR,9,143382,Petrol,Automatic,580088,58000
+Mahindra,Thar,7,72381,Diesel,Automatic,1625783,532000
+Mahindra,XUV400,3,33484,Petrol,Automatic,1737137,1295000
+Honda,Elevate,1,18892,Petrol,Manual,1518368,1291000
+Skoda,Slavia,8,93357,Diesel,Automatic,1362447,324000
+Skoda,Slavia,3,38033,Diesel,Manual,1475548,862000
+Mahindra,Bolero,8,120609,Diesel,Automatic,1022769,117000
+Skoda,Slavia,8,120555,Diesel,Manual,1479690,337000
+Tata,Tigor,5,69151,Diesel,Automatic,665860,245000
+Volkswagen,Vento,1,15756,Petrol,Manual,1193304,1014000
+Hyundai,Grand i10 Nios,10,148982,Petrol,Manual,708284,71000
+Mercedes-Benz,C-Class,7,89625,Petrol,Automatic,6017842,1640000
+BMW,5 Series,10,162276,Petrol,Automatic,6854122,1066000
+Honda,Amaze,5,69123,Diesel,Manual,829391,299000
+Volkswagen,Vento,8,80537,Diesel,Automatic,1152871,304000
+Mahindra,XUV700,9,114153,CNG,Manual,2289170,533000
+Mercedes-Benz,E-Class,7,104283,Diesel,Automatic,7484422,2019000
+Skoda,Slavia,7,96374,Petrol,Automatic,1327268,461000
+BMW,3 Series,1,10618,Petrol,Automatic,5339703,4539000
+Skoda,Slavia,4,55911,Diesel,Automatic,1393045,748000
+Maruti Suzuki,Swift,2,27377,Diesel,Manual,668597,463000
+Maruti Suzuki,Alto,2,26342,Diesel,Manual,438999,285000
+BMW,5 Series,2,22883,Diesel,Automatic,7379682,5262000
+BMW,7 Series,4,63324,Diesel,Automatic,15586366,8675000
+Mahindra,Marazzo,1,13882,Diesel,Manual,1361164,1147000
+BMW,5 Series,4,36128,Petrol,Automatic,7270748,3585000
+Tata,Tigor,2,29183,Diesel,Manual,759962,491000
+Skoda,Kushaq,5,49111,Diesel,Automatic,1539768,691000
+Volkswagen,Virtus,3,35403,Petrol,Manual,1482410,968000
+Audi,A6,8,104261,Diesel,Automatic,7034632,1511000
+BMW,5 Series,4,66874,Petrol,Automatic,7266232,3780000
+Honda,Amaze,1,14725,CNG,Manual,895038,672000
+Maruti Suzuki,Dzire,1,9231,Petrol,Manual,759366,645000
+Tata,Punch,10,134569,Diesel,Manual,785459,79000
+Mercedes-Benz,C-Class,3,36980,Petrol,Automatic,5480281,3141000
+Audi,Q3,9,133850,Diesel,Automatic,4788279,1027000
+Volkswagen,Tiguan,7,91856,Petrol,Automatic,3599973,1227000
+Audi,Q3,2,19243,Petrol,Automatic,4386891,3047000
+BMW,X1,9,93914,Petrol,Automatic,5129306,1225000
+Mahindra,XUV400,10,95381,Diesel,Automatic,1618033,336000
+Maruti Suzuki,Ignis,2,19534,Petrol,Automatic,646082,502000
+Maruti Suzuki,Grand Vitara,3,42566,Petrol,Automatic,1331244,878000
+Mercedes-Benz,C-Class,10,110111,Diesel,Automatic,5535366,744000
+Mahindra,Marazzo,2,35013,Petrol,Manual,1343263,951000
+Skoda,Slavia,3,44210,Diesel,Manual,1467485,871000
+Hyundai,Creta,6,90007,Petrol,Manual,1619763,588000
+Tata,Punch,9,85610,Diesel,Automatic,764193,76000
+Maruti Suzuki,WagonR,9,97561,Petrol,Automatic,601486,60000
+Honda,Amaze,7,65936,Petrol,Automatic,887507,202000
+Maruti Suzuki,Alto,3,38518,Diesel,Manual,480447,249000
+Audi,Q3,4,56509,Diesel,Automatic,4817221,2348000
+Maruti Suzuki,Dzire,6,86757,Diesel,Manual,796673,248000
+Maruti Suzuki,Alto,5,71796,Petrol,Manual,488653,134000
+Hyundai,Grand i10 Nios,2,31916,Petrol,Manual,701695,474000
+Hyundai,Alcazar,6,84214,Petrol,Automatic,1891995,759000
+Volkswagen,Virtus,3,44132,CNG,Manual,1325964,720000
+Skoda,Kushaq,8,126462,Petrol,Automatic,1463917,327000
+Honda,Elevate,2,28878,Petrol,Automatic,1436277,1149000
+Maruti Suzuki,Ignis,1,17271,Petrol,Automatic,687428,584000
+Maruti Suzuki,Ciaz,9,105626,Diesel,Manual,1182433,168000
+Tata,Tigor,3,50315,Petrol,Automatic,742985,429000
+Hyundai,Creta,1,17041,Diesel,Automatic,1723174,1465000
+Honda,WR-V,7,66027,Petrol,Manual,911600,228000
+Mercedes-Benz,GLC,10,144960,Diesel,Automatic,7160572,776000
+Volkswagen,Vento,5,62719,Petrol,Manual,1087652,521000
+Skoda,Kodiaq,5,50403,Diesel,Manual,4340399,2128000
+Mahindra,XUV700,1,15389,Diesel,Automatic,2576517,2190000
+Skoda,Kodiaq,9,132256,Petrol,Automatic,4209636,1097000
+Audi,Q3,7,62011,Diesel,Automatic,4853523,1406000
+Maruti Suzuki,Ciaz,8,84142,Petrol,Automatic,1164900,326000
+Volkswagen,Polo,9,100687,Diesel,Automatic,873112,116000
+Audi,Q5,6,81450,Diesel,Automatic,7308834,2666000
+Honda,Jazz,5,42980,Petrol,Automatic,886982,399000
+Mahindra,XUV300,6,64444,Petrol,Automatic,1154843,445000
+Hyundai,Exter,2,23685,Petrol,Automatic,736545,547000
+Volkswagen,Tiguan,4,67320,Petrol,Manual,3670092,2092000
+Volkswagen,Polo,3,37551,Petrol,Automatic,810961,545000
+Maruti Suzuki,Baleno,7,93522,Petrol,Manual,827002,181000
+BMW,7 Series,9,135309,Petrol,Automatic,16064406,4071000
+Volkswagen,Virtus,5,63660,Diesel,Manual,1385825,580000
+Tata,Harrier,6,74856,Petrol,Automatic,2412550,986000
+Mahindra,XUV400,10,146418,Petrol,Manual,1686828,232000
+Mahindra,XUV300,2,25973,Diesel,Manual,1124310,795000
+Tata,Curvv,3,36996,Petrol,Automatic,1424079,972000
+Mercedes-Benz,C-Class,3,53447,Petrol,Automatic,5324643,3271000
+Tata,Harrier,9,143515,Petrol,Automatic,2230618,442000
+Tata,Harrier,7,73299,Diesel,Automatic,2184892,787000
+Mahindra,Bolero,8,108972,Diesel,Automatic,974048,185000
+Skoda,Kushaq,10,90852,Petrol,Manual,1389252,268000
+Mahindra,Thar,9,123187,Diesel,Automatic,1575980,259000
+BMW,X1,6,74553,Petrol,Automatic,5088532,1788000
+Maruti Suzuki,Grand Vitara,4,41311,Diesel,Automatic,1336462,799000
+Audi,A4,1,13419,Diesel,Automatic,5004573,4183000
+Skoda,Superb,8,104140,Diesel,Manual,3830757,1068000
+Hyundai,i20,7,96198,Petrol,Automatic,919897,237000
+Audi,Q7,2,19688,Petrol,Automatic,9807612,7480000
+Maruti Suzuki,Ciaz,8,64590,Petrol,Manual,1161800,272000
+BMW,X5,5,45836,Diesel,Automatic,10409447,3909000
+BMW,X3,7,92980,Diesel,Automatic,6856780,1932000
+Hyundai,Venue,4,34257,Diesel,Automatic,1066594,575000
+Skoda,Superb,5,76811,CNG,Automatic,3869331,1520000
+Mercedes-Benz,GLC,8,71977,Petrol,Automatic,7531424,1686000
+Tata,Punch,1,6880,Diesel,Manual,736503,624000
+Skoda,Superb,1,14965,Diesel,Automatic,3627927,3084000
+Mercedes-Benz,GLC,4,46443,Diesel,Automatic,7957058,4320000
+BMW,5 Series,3,46088,Petrol,Automatic,7291050,4036000
+Mahindra,XUV700,10,156926,Diesel,Automatic,2545194,536000
+Maruti Suzuki,Brezza,2,14577,Petrol,Manual,1063738,787000
+Hyundai,Aura,3,25797,Diesel,Automatic,856721,534000
+Maruti Suzuki,Alto,1,13048,Petrol,Manual,444591,347000
+Honda,Amaze,1,14228,Diesel,Manual,839238,696000
+Honda,Jazz,6,76801,Diesel,Automatic,882773,228000
+Skoda,Kushaq,5,55721,Petrol,Manual,1344724,642000
+BMW,X3,8,93558,Diesel,Automatic,6677612,1210000
+BMW,5 Series,2,25237,Petrol,Automatic,7121910,4989000
+Tata,Safari,4,54089,Petrol,Manual,2473704,1298000
+Tata,Altroz,8,111451,Petrol,Automatic,868913,100000
+Tata,Punch,6,71908,Diesel,Manual,807723,259000
+Mahindra,XUV400,1,12990,Diesel,Manual,1740063,1479000
+Audi,A6,4,38742,Diesel,Automatic,6211125,2962000
+Volkswagen,Polo,1,10045,Petrol,Manual,824230,701000
+Audi,Q3,2,32292,Diesel,Automatic,4856308,3499000
+Maruti Suzuki,Ciaz,5,81470,Diesel,Automatic,1100962,431000
+Audi,Q7,8,123699,Petrol,Automatic,8699935,2168000
+Mahindra,Bolero,8,91517,Petrol,Automatic,991785,203000
+Maruti Suzuki,Brezza,3,38467,Petrol,Automatic,1172312,765000
+Audi,Q7,4,61199,Diesel,Automatic,9024179,4075000
+Mahindra,Scorpio,10,126574,Diesel,Manual,1929235,306000
+Volkswagen,Tiguan,6,62977,Diesel,Manual,3492748,1549000
+Audi,A4,10,113383,Petrol,Automatic,4677759,542000
+Mahindra,Thar,3,30769,Diesel,Automatic,1624603,974000
+Tata,Altroz,2,35590,Petrol,Automatic,814272,593000
+BMW,X3,6,61141,Petrol,Automatic,6666913,2668000
+Tata,Curvv,5,77233,Diesel,Automatic,1354579,635000
+BMW,7 Series,10,125707,Petrol,Automatic,14666083,2224000
+Hyundai,Exter,5,47486,Diesel,Automatic,725278,312000
+Hyundai,Creta,10,93508,Petrol,Manual,1601966,307000
+Hyundai,Exter,5,57265,Diesel,Automatic,821020,373000
+Volkswagen,Tiguan,10,145493,Petrol,Automatic,3592341,616000
+Tata,Tiago,5,47209,Diesel,Manual,626480,216000
+BMW,7 Series,3,50682,Petrol,Automatic,15051869,8452000
+Mahindra,XUV300,7,97197,Petrol,Automatic,1098375,268000
+Maruti Suzuki,Ignis,6,67608,Diesel,Automatic,619756,189000
+Mahindra,XUV400,4,56574,Petrol,Automatic,1742585,971000
+Maruti Suzuki,Grand Vitara,2,29396,Diesel,Manual,1431557,957000
+Honda,Civic,9,123586,CNG,Automatic,2142084,425000
+Mahindra,XUV300,1,14897,Petrol,Automatic,1171113,995000
+Audi,A4,4,48437,Petrol,Automatic,4914725,2351000
+Audi,Q5,1,12976,Diesel,Automatic,6805773,5690000
+Skoda,Kushaq,6,68774,CNG,Manual,1360850,438000
+Tata,Safari,4,39829,Diesel,Automatic,2478777,1495000
+Maruti Suzuki,Grand Vitara,5,82892,Petrol,Manual,1488091,607000
+Maruti Suzuki,Swift,5,69269,Diesel,Manual,694609,216000
+Tata,Harrier,9,125241,Petrol,Automatic,2162202,610000
+Volkswagen,Taigun,1,11687,CNG,Manual,1439606,1047000
+Skoda,Slavia,2,31627,CNG,Manual,1313957,826000
+Volkswagen,Vento,6,91852,Petrol,Manual,1154991,394000
+Volkswagen,Virtus,5,39437,Petrol,Manual,1405082,595000
+Volkswagen,Polo,7,61394,Petrol,Automatic,770449,216000
+Tata,Tiago,3,32449,Petrol,Manual,573286,304000
+Volkswagen,Tiguan,3,39821,Diesel,Manual,3650651,2305000
+Audi,A4,10,89166,Petrol,Automatic,4771891,911000
+Hyundai,Tucson,2,21262,Petrol,Automatic,3081493,2397000
+Honda,Civic,3,37056,Petrol,Automatic,2340611,1503000
+Maruti Suzuki,WagonR,10,127796,CNG,Manual,598263,60000
+Maruti Suzuki,Alto,1,15633,Diesel,Manual,458522,345000
+Honda,Jazz,5,65781,Petrol,Automatic,837693,305000
+Tata,Safari,5,50404,Petrol,Manual,2505834,1353000
+Mahindra,Marazzo,7,63424,CNG,Automatic,1393312,361000
+Tata,Safari,4,59829,Diesel,Manual,2628487,1540000
+Maruti Suzuki,Ciaz,3,48593,Petrol,Manual,1160986,713000
+Maruti Suzuki,Brezza,1,13209,Petrol,Automatic,1067559,907000
+Honda,WR-V,8,103731,Petrol,Automatic,961879,174000
+Volkswagen,Virtus,3,52952,Petrol,Automatic,1360547,926000
+Tata,Tiago,2,21679,Diesel,Manual,618082,405000
+BMW,5 Series,4,45498,Diesel,Automatic,7749285,3700000
+Honda,Civic,3,30581,Petrol,Automatic,2282529,1446000
+Audi,A4,1,13315,Diesel,Automatic,4604320,3914000
+Maruti Suzuki,Swift,3,44250,Petrol,Manual,733818,430000
+Honda,Jazz,2,33810,Diesel,Manual,808553,518000
+Tata,Punch,8,94976,Diesel,Manual,800245,80000
+Maruti Suzuki,WagonR,6,92502,Petrol,Automatic,629997,139000
+Mahindra,Thar,9,116435,Petrol,Automatic,1594108,393000
+Honda,Civic,8,72766,Diesel,Automatic,2186505,658000
+Skoda,Slavia,10,136765,Petrol,Manual,1444150,144000
+Maruti Suzuki,Ignis,3,41213,Petrol,Automatic,693875,403000
+Tata,Curvv,5,44938,Petrol,Manual,1403983,713000
+Hyundai,Alcazar,7,80895,CNG,Automatic,1790715,486000
+BMW,X3,5,78704,Petrol,Automatic,7237816,2978000
+Mercedes-Benz,GLC,8,91846,Diesel,Automatic,7134411,1854000
+Volkswagen,Taigun,5,46704,Petrol,Manual,1347360,653000
+Mercedes-Benz,GLA,1,14883,Diesel,Automatic,4650842,3902000
+Tata,Tiago,5,66170,Diesel,Manual,586687,171000
+Audi,Q7,4,61630,Diesel,Automatic,9241224,4975000
+Audi,Q5,6,48238,Petrol,Automatic,7472086,2440000
+Hyundai,Venue,3,38337,Diesel,Automatic,1047892,650000
+Volkswagen,Taigun,5,75912,Diesel,Automatic,1342872,521000
+Skoda,Slavia,2,24503,Petrol,Automatic,1388929,1143000
+Hyundai,Tucson,6,81507,Petrol,Manual,3278389,1329000
+Mercedes-Benz,GLC,6,60510,Petrol,Automatic,7287188,2445000
+Hyundai,Tucson,5,56576,Petrol,Automatic,3481730,1909000
+Mercedes-Benz,GLC,6,51370,Diesel,Automatic,7620860,2304000
+Maruti Suzuki,Grand Vitara,7,99489,Petrol,Automatic,1538857,506000
+Audi,Q5,5,71222,Petrol,Automatic,6888473,2843000
+Maruti Suzuki,Alto,1,10570,Diesel,Automatic,468537,383000
+BMW,5 Series,8,85620,Petrol,Automatic,6953143,1457000
+Volkswagen,Virtus,4,38884,Petrol,Manual,1374481,726000
+Skoda,Slavia,9,103282,Petrol,Manual,1330850,218000
+Mercedes-Benz,GLE,10,88060,Diesel,Automatic,10215679,1290000
+Skoda,Superb,6,64449,Diesel,Manual,3843316,1636000
+Mercedes-Benz,E-Class,1,8411,Diesel,Automatic,8374290,6835000
+Tata,Tiago,3,44299,Petrol,Automatic,635124,329000
+Hyundai,i20,3,37849,Diesel,Manual,967412,623000
+BMW,X1,10,142299,Petrol,Automatic,4704596,629000
+Audi,Q7,4,56528,Petrol,Automatic,9160259,5279000
+Mercedes-Benz,GLE,6,84971,Petrol,Automatic,10010881,3252000
+Skoda,Octavia,7,74655,Diesel,Automatic,2927704,1123000
+BMW,X5,10,81871,Petrol,Automatic,10363041,2043000
+Mahindra,XUV700,4,37816,Petrol,Manual,2360733,1334000
+Mahindra,XUV700,6,78594,Petrol,Manual,2315436,833000
+Maruti Suzuki,Brezza,1,10800,Petrol,Manual,1196273,1017000
+Audi,Q5,8,111013,Diesel,Automatic,7031375,1702000
+Tata,Altroz,7,70078,Petrol,Manual,778459,206000
+Skoda,Superb,9,117396,Diesel,Manual,3848455,966000
+Hyundai,Venue,3,47761,Petrol,Manual,1087239,684000
+Hyundai,Creta,2,24406,Diesel,Automatic,1560695,1225000
+Skoda,Octavia,1,14747,Diesel,Automatic,3003313,2553000
+Volkswagen,Polo,3,32152,Petrol,Automatic,871987,529000
+Tata,Tigor,5,71393,Petrol,Automatic,763527,295000
+BMW,5 Series,2,25174,Diesel,Automatic,7827288,5399000
+Mercedes-Benz,C-Class,3,31414,Diesel,Automatic,5675797,3390000
+Volkswagen,Virtus,4,61088,Petrol,Automatic,1354632,799000
+Mercedes-Benz,GLE,7,61020,Petrol,Automatic,9035363,2828000
+Mercedes-Benz,C-Class,3,22214,Diesel,Automatic,5275252,3346000
+Volkswagen,Polo,9,86861,Diesel,Manual,811460,81000
+Maruti Suzuki,Baleno,8,111675,Petrol,Manual,858414,136000
+Mahindra,Marazzo,4,63564,Petrol,Automatic,1368789,818000
+Mercedes-Benz,GLC,1,9142,Petrol,Automatic,7569915,6434000
+Volkswagen,Vento,1,14959,Diesel,Manual,1073817,913000
+Volkswagen,Tiguan,1,15454,Petrol,Automatic,3770615,3205000
+Honda,Civic,1,8005,CNG,Automatic,2188404,1680000
+Maruti Suzuki,Baleno,8,71570,Petrol,Automatic,883816,218000
+Audi,A6,3,29407,Petrol,Automatic,6665271,4142000
+Honda,Civic,6,90129,Diesel,Manual,2107121,737000
+Honda,Amaze,3,49841,Diesel,Manual,927634,538000
+Skoda,Kodiaq,5,75443,Diesel,Automatic,4116335,2116000
+Mahindra,XUV700,7,108194,Petrol,Manual,2397020,743000
+Volkswagen,Tiguan,2,22164,Diesel,Automatic,3408016,2664000
+Mahindra,XUV400,6,47297,Diesel,Manual,1701324,716000
+Tata,Tiago,6,88609,Petrol,Manual,571846,96000
+Skoda,Kushaq,3,41446,Petrol,Automatic,1406347,959000
+Audi,A4,6,62839,Petrol,Automatic,4942669,1592000
+Mahindra,Marazzo,10,97826,Petrol,Automatic,1513091,229000
+Hyundai,Exter,10,100906,Diesel,Manual,789829,79000
+Mercedes-Benz,E-Class,5,63223,Petrol,Automatic,7540551,3361000
+Tata,Harrier,2,20974,CNG,Manual,2138756,1255000
+Maruti Suzuki,Ciaz,9,115091,Petrol,Manual,1115640,133000
+Audi,A6,8,115333,Diesel,Automatic,6365815,1488000
+Tata,Altroz,3,30110,Petrol,Manual,763341,469000
+Mercedes-Benz,C-Class,8,125135,Petrol,Automatic,5889137,1418000
+Skoda,Kushaq,9,118178,Petrol,Manual,1334099,214000
+Mercedes-Benz,C-Class,3,26076,Petrol,Automatic,5910318,3640000
+Honda,Civic,3,39755,Diesel,Automatic,2137554,1399000
+Mercedes-Benz,GLA,2,14729,Petrol,Automatic,5261768,4080000
+Honda,City,8,110891,Diesel,Manual,1560871,380000
+Skoda,Superb,10,124545,Petrol,Manual,3816890,885000
+BMW,3 Series,1,17920,Petrol,Automatic,5026177,4272000
+Honda,City,8,67932,Petrol,Manual,1618973,433000
+Maruti Suzuki,Brezza,7,77390,Diesel,Manual,1183466,320000
+Mercedes-Benz,S-Class,7,90237,Diesel,Automatic,17815131,5753000
+Mercedes-Benz,GLE,3,40359,Petrol,Automatic,9740741,6326000
+Maruti Suzuki,Ertiga,1,13631,Petrol,Automatic,1111134,944000
+Hyundai,Aura,4,48715,Petrol,Automatic,760711,393000
+Volkswagen,Virtus,9,120714,CNG,Automatic,1402469,225000
+BMW,7 Series,5,58823,Diesel,Automatic,16156663,6978000
+Audi,Q5,1,16723,Petrol,Automatic,6824037,5800000
+Honda,Amaze,5,62777,Diesel,Automatic,821306,299000
+Maruti Suzuki,Baleno,8,100156,Petrol,Manual,861161,99000
+Skoda,Slavia,8,89603,CNG,Manual,1429738,350000
+Honda,City,5,75877,Petrol,Manual,1449142,694000
+Volkswagen,Taigun,9,111202,Diesel,Automatic,1373270,178000
+Skoda,Slavia,1,16565,Petrol,Automatic,1312379,1116000
+Tata,Curvv,4,43420,Diesel,Automatic,1497359,871000
+Mercedes-Benz,GLE,3,32527,Diesel,Automatic,9114621,4835000
+Tata,Nexon,2,35501,Diesel,Manual,1263585,837000
+Honda,Jazz,8,68233,Diesel,Manual,854223,175000
+Volkswagen,Tiguan,7,78617,Diesel,Automatic,3721790,1337000
+BMW,3 Series,9,99090,Petrol,Automatic,5692219,1103000
+Honda,Elevate,2,18384,Petrol,Manual,1354054,1075000
+Maruti Suzuki,Alto,4,36958,Petrol,Automatic,448720,203000
+Mahindra,Scorpio,6,70407,CNG,Automatic,1928733,696000
+Honda,Jazz,3,39344,Petrol,Automatic,841435,524000
+Mercedes-Benz,S-Class,8,93884,Diesel,Automatic,16698557,4108000
+Mercedes-Benz,S-Class,3,29460,Diesel,Automatic,18254713,10959000
+Honda,Civic,2,24457,Petrol,Manual,2415737,2018000
+Skoda,Octavia,3,47791,Petrol,Automatic,2893889,2129000
+Mahindra,XUV400,6,67113,Petrol,Manual,1685902,582000
+Maruti Suzuki,Baleno,2,24442,Petrol,Automatic,858317,635000
+Honda,Amaze,8,117707,Petrol,Manual,829191,83000
+Skoda,Kodiaq,1,19114,Petrol,Automatic,4257132,3619000
+Mercedes-Benz,C-Class,7,82626,Diesel,Automatic,5863116,1369000
+Mercedes-Benz,GLA,2,28463,Petrol,Automatic,5190087,3800000
+Volkswagen,Tiguan,10,115360,Petrol,Manual,3338966,648000
+Honda,Elevate,6,48136,Petrol,Automatic,1448016,582000
+Mahindra,XUV700,2,16776,Petrol,Automatic,2357131,2004000
+Hyundai,Tucson,2,15872,Diesel,Manual,3203623,2290000
+Mahindra,XUV400,10,116536,Diesel,Automatic,1815163,277000
+Mercedes-Benz,S-Class,8,70806,Petrol,Automatic,16639685,4607000
+Mercedes-Benz,C-Class,2,24724,Petrol,Automatic,5751631,4178000
+Tata,Tiago,7,87930,Diesel,Manual,628910,73000
+Mercedes-Benz,C-Class,3,50789,Diesel,Automatic,6012127,3487000
+Maruti Suzuki,Ciaz,8,82139,Petrol,Automatic,1172901,361000
+Audi,Q7,7,56880,Diesel,Automatic,9634907,2650000
+Honda,Elevate,8,110324,Petrol,Automatic,1441636,300000
+Mahindra,Bolero,7,72365,Petrol,Automatic,978017,298000
+Audi,Q7,6,68142,Diesel,Automatic,9124510,3053000
+Skoda,Slavia,7,59933,Diesel,Manual,1393771,558000
+Hyundai,i20,5,53494,Petrol,Manual,946586,381000
+Maruti Suzuki,Swift,7,74240,Diesel,Manual,728809,196000
+Mahindra,XUV700,1,8654,Petrol,Manual,2421832,2059000
+Audi,Q3,1,21194,Diesel,Automatic,4553066,3801000
+Hyundai,Alcazar,9,82282,Petrol,Automatic,1755422,432000
+Tata,Altroz,5,60884,Diesel,Automatic,843261,315000
+Maruti Suzuki,Brezza,5,42840,Diesel,Manual,1151490,491000
+Maruti Suzuki,WagonR,3,34217,Petrol,Automatic,631863,384000
+Tata,Tigor,5,72145,Diesel,Manual,704115,235000
+Honda,WR-V,3,25880,Diesel,Manual,939893,530000
+Tata,Altroz,9,89043,Diesel,Manual,851166,113000
+Maruti Suzuki,Baleno,9,130908,Petrol,Automatic,906140,91000
+Maruti Suzuki,Ignis,6,53965,Diesel,Manual,661922,210000
+Audi,Q3,1,11841,Diesel,Automatic,4792213,4073000
+Mercedes-Benz,GLE,7,75167,Petrol,Automatic,9557265,2781000
+Hyundai,Tucson,7,94342,CNG,Automatic,3376934,1140000
+Tata,Curvv,10,139515,Petrol,Automatic,1505501,174000
+Hyundai,Creta,10,150816,Petrol,Automatic,1685175,247000
+Tata,Tigor,4,63304,Petrol,Automatic,718821,343000
+Skoda,Superb,8,79762,Diesel,Automatic,3667675,1216000
+Maruti Suzuki,Ertiga,6,82033,Diesel,Automatic,1098665,366000
+Mercedes-Benz,GLE,4,62699,Petrol,Automatic,9993730,5543000
+Audi,A6,4,48618,Petrol,Automatic,6719761,3535000
+Mercedes-Benz,C-Class,2,25339,Petrol,Automatic,5740577,4018000
+Mercedes-Benz,GLC,2,34844,Petrol,Automatic,7233662,5241000
+Mercedes-Benz,GLE,4,34677,Petrol,Automatic,10381265,5341000
+Hyundai,Creta,5,67927,Diesel,Automatic,1709785,794000
+Tata,Curvv,8,125586,Diesel,Automatic,1408524,293000
+BMW,X5,6,65221,Diesel,Automatic,10137334,3217000
+Skoda,Superb,4,46533,Diesel,Manual,3445555,1896000
+Mahindra,Bolero,7,106092,Petrol,Automatic,956184,203000
+Mercedes-Benz,GLA,8,99857,Petrol,Automatic,4740574,1209000
+Honda,WR-V,2,28448,Petrol,Manual,1000782,694000
+Hyundai,Creta,7,71047,Petrol,Automatic,1724515,611000
+Audi,Q5,2,31313,Petrol,Automatic,7030369,5054000
+Mahindra,Thar,2,31130,Diesel,Automatic,1647711,1334000
+BMW,X1,8,98009,Petrol,Automatic,4849662,1270000
+Honda,Jazz,2,23054,Diesel,Automatic,828103,570000
+BMW,X5,9,129240,Petrol,Automatic,9483980,1620000
+Mahindra,Marazzo,1,10893,Petrol,Manual,1489742,1266000
+Mercedes-Benz,GLA,9,90493,Diesel,Automatic,5227802,1014000
+Honda,Jazz,1,11948,Petrol,Manual,865931,736000
+BMW,X3,10,114757,Diesel,Automatic,7342417,1139000
+Audi,A4,10,92664,Diesel,Automatic,5218409,908000
+Tata,Punch,2,23880,Petrol,Manual,722637,534000
+Maruti Suzuki,Brezza,6,86993,CNG,Manual,1172129,319000
+Tata,Safari,6,83392,Petrol,Automatic,2502054,983000
+Mahindra,Bolero,1,16560,Petrol,Automatic,1039795,884000
+Hyundai,Venue,7,62703,Diesel,Automatic,993881,295000
+Maruti Suzuki,Grand Vitara,8,96629,Petrol,Manual,1473617,275000
+Skoda,Octavia,2,18506,Diesel,Automatic,2993815,2348000
+Audi,A6,8,118653,Diesel,Automatic,6285036,1310000
+Skoda,Kodiaq,9,87458,CNG,Automatic,4120112,1273000
+Honda,Civic,6,71170,Petrol,Automatic,2123417,931000
+Maruti Suzuki,Ertiga,5,75768,Petrol,Automatic,1134930,489000
+Skoda,Superb,9,118805,Diesel,Automatic,3694123,793000
+Skoda,Octavia,9,119610,Petrol,Manual,2999345,620000
+BMW,X5,1,11919,Petrol,Automatic,9851085,8373000
+Tata,Safari,3,23929,Petrol,Manual,2325028,1520000
+BMW,X3,9,84400,Petrol,Automatic,6693574,1825000
+Maruti Suzuki,Brezza,2,29049,Petrol,Manual,1091449,790000
+Maruti Suzuki,WagonR,4,58729,Diesel,Automatic,591981,257000
+Mahindra,Scorpio,4,34754,Diesel,Manual,1861295,938000
+BMW,X3,2,29329,Petrol,Automatic,6672825,5125000
+Volkswagen,Virtus,3,37289,Petrol,Manual,1387915,840000
+Tata,Altroz,3,30954,Petrol,Manual,807012,507000
+Maruti Suzuki,Swift,1,15199,Diesel,Manual,725597,604000
+Mahindra,XUV300,6,52046,Petrol,Automatic,1160898,475000
+BMW,X3,8,95335,Diesel,Automatic,7315796,2056000
+Tata,Altroz,3,33253,Petrol,Manual,878157,522000
+BMW,3 Series,5,79408,Diesel,Automatic,5047846,2257000
+Skoda,Octavia,1,15630,Petrol,Automatic,2840489,2414000
+Mahindra,Marazzo,10,146098,Diesel,Manual,1419214,161000
+Tata,Safari,7,68945,Petrol,Automatic,2430139,911000
+Mercedes-Benz,GLC,10,107634,Diesel,Automatic,7871773,1037000
+Honda,Amaze,1,16434,Petrol,Manual,869953,693000
+Honda,Jazz,9,81191,Diesel,Manual,873472,118000
+Tata,Safari,8,77196,Diesel,Automatic,2435648,726000
+BMW,3 Series,7,86588,Petrol,Automatic,5713525,1652000
+Mahindra,Scorpio,10,87048,Diesel,Manual,1960441,416000
+Honda,Jazz,7,77728,Diesel,Automatic,846734,189000
+Mahindra,Scorpio,5,47211,Petrol,Automatic,1740130,975000
+Honda,Civic,5,60837,Petrol,Automatic,2367122,1170000
+Skoda,Superb,5,65331,Petrol,Automatic,3958471,2161000
+BMW,X3,1,10412,Diesel,Automatic,6957239,5914000
+Skoda,Slavia,8,104478,Diesel,Automatic,1354951,296000
+Honda,Civic,1,11057,Petrol,Automatic,2400738,2041000
+Mercedes-Benz,GLE,4,38566,Petrol,Automatic,10038359,4941000
+Mercedes-Benz,E-Class,9,81789,Diesel,Automatic,7755896,1403000
+Skoda,Octavia,9,120690,Diesel,Automatic,2904039,597000
+Mercedes-Benz,GLE,5,66601,Petrol,Automatic,10370527,4299000
+Honda,WR-V,4,35415,CNG,Automatic,1018183,478000
+Tata,Tigor,3,28244,Petrol,Manual,742892,474000
+Skoda,Kodiaq,3,36905,Petrol,Manual,4242197,2782000
+Hyundai,Alcazar,5,70419,Diesel,Manual,1758065,745000
+BMW,X3,10,103673,Petrol,Automatic,7515915,1245000
+Mercedes-Benz,C-Class,1,15568,Petrol,Automatic,5452797,4635000
+Mercedes-Benz,E-Class,5,46534,Petrol,Automatic,8498528,3528000
+Maruti Suzuki,Ignis,6,67470,Diesel,Automatic,653052,193000
+Volkswagen,Virtus,7,110388,Diesel,Manual,1456176,373000
+Skoda,Kushaq,9,86914,Petrol,Automatic,1385909,274000
+Audi,A4,3,31205,Petrol,Automatic,4930459,2965000
+Mercedes-Benz,GLE,2,29341,Petrol,Automatic,9177311,7069000
+BMW,5 Series,3,30284,Diesel,Automatic,7552928,4395000
+Hyundai,Tucson,9,81312,Petrol,Manual,3441318,970000
+Mercedes-Benz,C-Class,7,91138,Diesel,Automatic,5817719,1356000
+Hyundai,Venue,9,92446,Petrol,Automatic,1028488,203000
+Honda,Civic,2,19024,Petrol,Manual,2104888,1559000
+Honda,Amaze,5,50178,Petrol,Automatic,926513,434000
+Volkswagen,Polo,4,42855,Petrol,Automatic,844658,449000
+Tata,Punch,2,31261,Diesel,Manual,796409,547000
+Audi,Q5,9,114164,Petrol,Automatic,7270574,1484000
+Maruti Suzuki,Dzire,9,80366,Petrol,Automatic,796621,110000
+Volkswagen,Virtus,6,76122,Petrol,Automatic,1371826,453000
+Mahindra,XUV700,6,63175,Petrol,Manual,2544103,1151000
+Maruti Suzuki,Baleno,8,90694,Petrol,Manual,887190,152000
+Skoda,Octavia,6,78593,Petrol,Manual,3018686,1294000
+BMW,X3,1,14528,Petrol,Automatic,7492582,6369000
+Mahindra,Scorpio,4,64240,Diesel,Automatic,1721171,909000
+Mahindra,XUV700,7,111227,Petrol,Manual,2416399,825000
+Volkswagen,Virtus,2,24369,Petrol,Automatic,1289530,983000
+Tata,Tiago,9,103246,CNG,Manual,579186,58000
+Volkswagen,Taigun,8,113621,Petrol,Automatic,1456296,339000
+Skoda,Octavia,8,125215,Petrol,Automatic,3027005,877000
+Mercedes-Benz,GLC,7,83664,Petrol,Automatic,7259802,2121000
+Mercedes-Benz,E-Class,4,40064,Petrol,Automatic,7937774,3861000
+Tata,Nexon,2,24821,Diesel,Manual,1303958,939000
+Skoda,Kodiaq,3,29872,Petrol,Manual,4288580,2922000
+Tata,Nexon,6,97871,Diesel,Automatic,1233540,416000
+Hyundai,Alcazar,5,56476,Petrol,Manual,1918324,997000
+Mercedes-Benz,GLE,8,104775,Petrol,Automatic,9769838,2339000
+Mahindra,Marazzo,6,70824,Diesel,Automatic,1363199,513000
+Audi,Q3,6,59946,Petrol,Automatic,4456067,1389000
+BMW,X3,1,18999,Diesel,Automatic,6847786,5821000
+Skoda,Octavia,4,42538,Petrol,Automatic,2807387,1577000
+Maruti Suzuki,Ciaz,5,48810,Diesel,Automatic,1198537,562000
+Tata,Nexon,3,40274,Petrol,Automatic,1283942,827000
+BMW,7 Series,9,122799,Diesel,Automatic,15223803,3029000
+Maruti Suzuki,Ignis,1,12900,Petrol,Automatic,665574,566000
+BMW,7 Series,6,59736,Diesel,Automatic,14847621,5595000
+Audi,A4,6,87450,Petrol,Automatic,5067134,1575000
+Maruti Suzuki,Baleno,10,136701,Diesel,Automatic,909852,91000
+Volkswagen,Polo,5,74542,Petrol,Automatic,788668,277000
+Honda,Jazz,5,62904,Diesel,Manual,812832,327000
+Volkswagen,Virtus,10,132873,Petrol,Manual,1408837,141000
+Mercedes-Benz,GLA,5,55261,Petrol,Automatic,4965008,2004000
+Honda,Amaze,6,78872,Petrol,Manual,858771,257000
+Volkswagen,Tiguan,8,86563,Petrol,Automatic,3663044,1138000
+Honda,City,2,36459,Petrol,Automatic,1548887,1161000
+Honda,City,6,68829,Diesel,Manual,1481380,504000
+Mahindra,Thar,1,14939,CNG,Automatic,1615454,1272000
+Tata,Safari,4,58133,Petrol,Manual,2434120,1355000
+Tata,Curvv,10,130555,Diesel,Automatic,1514852,193000
+Mahindra,Bolero,3,41805,Petrol,Manual,1094135,660000
+BMW,7 Series,9,146223,Petrol,Automatic,16259253,3577000
+Hyundai,Verna,3,41051,Diesel,Manual,1481027,945000
+BMW,X3,6,87473,Diesel,Automatic,7264242,2562000
+Maruti Suzuki,Ciaz,1,16304,CNG,Manual,1158728,835000
+Maruti Suzuki,Grand Vitara,6,69531,Petrol,Manual,1527212,528000
+Honda,Amaze,4,40138,Diesel,Automatic,839374,389000
+Volkswagen,Tiguan,8,96562,Petrol,Manual,3605938,1116000
+Volkswagen,Vento,9,110725,Petrol,Automatic,1158785,116000
+Tata,Curvv,4,41964,Petrol,Automatic,1472641,847000
+Skoda,Kodiaq,10,82340,CNG,Automatic,3951367,1024000
+BMW,3 Series,10,162417,Diesel,Automatic,5397650,540000
+Mercedes-Benz,GLC,6,67513,Diesel,Automatic,8020402,2434000
+Audi,Q3,1,17198,Petrol,Automatic,4697804,3993000
+Volkswagen,Taigun,4,39489,Petrol,Manual,1496592,700000
+Audi,A4,7,106297,Petrol,Automatic,4819115,1360000
+Honda,Elevate,1,13797,Petrol,Automatic,1527139,1298000
+Audi,A4,8,69855,Petrol,Automatic,4944428,1036000
+Mercedes-Benz,GLC,10,156521,Diesel,Automatic,7795441,857000
+Mahindra,XUV300,6,89690,Petrol,Manual,1050174,345000
+Mercedes-Benz,C-Class,5,71746,Petrol,Automatic,5365472,2053000
+Audi,Q5,10,89958,Petrol,Automatic,7105592,1319000
+Mercedes-Benz,E-Class,9,104065,Petrol,Automatic,7901248,1287000
+Hyundai,Venue,2,26600,Petrol,Manual,1026224,801000
+Honda,Civic,5,75149,Diesel,Manual,2110780,981000
+BMW,X1,6,71911,Diesel,Automatic,5160577,1719000
+Mahindra,XUV300,7,67473,Diesel,Automatic,1174443,425000
+Volkswagen,Virtus,5,44443,Petrol,Manual,1320034,657000
+Maruti Suzuki,Brezza,9,77733,Petrol,Automatic,1149664,250000
+BMW,7 Series,1,15336,Petrol,Automatic,16091209,13399000
+Maruti Suzuki,Ciaz,7,79528,Diesel,Automatic,1150740,309000
+Honda,Elevate,10,154559,Diesel,Automatic,1395183,158000
+Mahindra,XUV400,7,84847,Petrol,Manual,1782308,506000
+Tata,Tigor,4,39503,Petrol,Manual,687098,325000
+Volkswagen,Virtus,9,116971,Petrol,Automatic,1346946,187000
+Hyundai,Exter,5,54827,Diesel,Manual,739507,289000
+Tata,Punch,4,46981,Diesel,Automatic,775154,409000
+Honda,Amaze,7,70769,Diesel,Automatic,821298,236000
+BMW,7 Series,4,63307,Petrol,Automatic,16349948,8089000
+Hyundai,i20,3,28447,Petrol,Manual,900024,573000
+Mercedes-Benz,GLA,9,87917,Petrol,Automatic,4717658,746000
+Audi,A6,8,99850,Petrol,Automatic,6659136,1517000
+Hyundai,Exter,1,11020,Petrol,Manual,743662,632000
+Honda,WR-V,7,82312,Diesel,Automatic,978723,287000
+Skoda,Superb,9,141028,Diesel,Automatic,3608194,671000
+Audi,Q5,8,123160,Petrol,Automatic,6594708,1517000
+Maruti Suzuki,Ciaz,8,113330,Diesel,Automatic,1088872,237000
+Volkswagen,Vento,6,84697,Petrol,Manual,1117342,374000
+Maruti Suzuki,Ertiga,4,46057,Petrol,Manual,1002271,521000
+Hyundai,Aura,8,104834,Petrol,Automatic,852477,111000
+Maruti Suzuki,Dzire,3,45184,Petrol,Automatic,782455,511000
+Honda,Amaze,9,113218,Petrol,Automatic,884173,88000
+Mercedes-Benz,S-Class,2,24420,Petrol,Automatic,17542427,13021000
+BMW,7 Series,2,31038,Petrol,Automatic,15578204,11373000
+Volkswagen,Taigun,7,86905,CNG,Manual,1526276,402000
+Maruti Suzuki,Dzire,10,102384,Petrol,Manual,713464,71000
+Maruti Suzuki,Swift,4,42997,Petrol,Automatic,670018,326000
+Hyundai,Tucson,10,145878,Petrol,Manual,3131916,620000
+BMW,X3,8,70019,Diesel,Automatic,6825666,1674000
+Tata,Harrier,9,89223,Petrol,Automatic,2149794,499000
+Maruti Suzuki,Dzire,7,85133,Diesel,Automatic,788093,170000
+Honda,Civic,5,48610,Petrol,Manual,2241629,1220000
+Skoda,Octavia,8,101293,Petrol,Manual,3076547,761000
+Volkswagen,Tiguan,4,51448,Diesel,Manual,3444115,1850000
+Maruti Suzuki,Alto,2,30691,Petrol,Automatic,448481,313000
+Honda,Civic,6,73121,Petrol,Automatic,2414799,1022000
+Honda,City,9,120800,Petrol,Automatic,1612145,450000
+Volkswagen,Taigun,1,17272,Diesel,Automatic,1428657,1214000
+Tata,Tigor,10,134679,Petrol,Manual,723232,72000
+Honda,Jazz,7,61219,Petrol,Automatic,915005,215000
+Skoda,Superb,10,123283,CNG,Automatic,3679729,761000
+Honda,WR-V,9,123660,Petrol,Manual,931858,93000
+Honda,WR-V,10,144207,Diesel,Manual,1020553,102000
+Honda,Amaze,9,91889,Diesel,Automatic,876065,107000
+Mercedes-Benz,C-Class,10,113750,Petrol,Automatic,5351260,684000
+Mercedes-Benz,GLE,3,37070,Petrol,Automatic,9745459,5881000
+Tata,Curvv,5,56312,Petrol,Automatic,1416772,727000
+Maruti Suzuki,Grand Vitara,8,109373,Diesel,Manual,1514136,353000
+Honda,Civic,8,88622,Diesel,Manual,2131598,695000
+BMW,5 Series,4,38078,Diesel,Automatic,7785226,3824000
+Maruti Suzuki,Alto,1,16032,Diesel,Automatic,462074,393000
+Tata,Nexon,1,18013,Diesel,Automatic,1212785,1031000
+Mahindra,Marazzo,4,34812,Petrol,Manual,1364013,783000
+Maruti Suzuki,Baleno,6,59946,Petrol,Manual,896854,295000
+Maruti Suzuki,Baleno,8,121293,Diesel,Manual,925667,123000
+Audi,A4,6,93056,Petrol,Automatic,4830271,1607000
+Hyundai,Venue,9,78025,Petrol,Manual,986237,168000
+Audi,A6,9,83354,Diesel,Automatic,6715995,1108000
+Skoda,Octavia,2,27557,Petrol,Manual,2994398,2079000
+Mercedes-Benz,C-Class,10,98230,Diesel,Automatic,5228108,946000
+Mercedes-Benz,C-Class,1,14353,Diesel,Automatic,5745886,4884000
+Hyundai,i20,2,25835,Petrol,Manual,935529,640000
+Volkswagen,Polo,5,73980,Diesel,Manual,798178,294000
+Volkswagen,Polo,4,64947,Petrol,Automatic,814170,425000
+Tata,Punch,4,34838,Petrol,Manual,740283,399000
+Hyundai,Exter,9,76692,Petrol,Automatic,801362,101000
+Maruti Suzuki,Ciaz,8,80907,Petrol,Manual,1149698,243000
+Volkswagen,Vento,6,48938,Petrol,Manual,1132897,419000
+Honda,Amaze,1,7684,Petrol,Manual,857547,729000
+BMW,7 Series,2,28478,Petrol,Automatic,14905614,11308000
+Maruti Suzuki,Brezza,6,76683,Petrol,Automatic,1180751,534000
+Skoda,Octavia,2,29625,Diesel,Automatic,2849591,2051000
+Honda,WR-V,10,110055,Diesel,Manual,973956,97000
+Honda,Civic,5,70353,Petrol,Manual,2261873,936000
+Hyundai,Venue,5,50133,Petrol,Automatic,1017255,492000
+Tata,Punch,6,48852,Petrol,Manual,741309,280000
+Skoda,Kushaq,6,56917,Petrol,Automatic,1355271,617000
+Volkswagen,Vento,6,75054,Diesel,Manual,1061258,349000
+Hyundai,i20,2,28922,Diesel,Automatic,957257,646000
+Volkswagen,Virtus,10,100711,Petrol,Manual,1327764,187000
+Hyundai,Alcazar,3,39589,Petrol,Manual,1725031,1127000
+Hyundai,Creta,6,96025,Petrol,Automatic,1711404,608000
+Hyundai,Verna,8,77384,Diesel,Automatic,1362352,346000
+Tata,Tigor,1,9220,Petrol,Automatic,730640,621000
+Hyundai,Tucson,1,16492,CNG,Automatic,3202548,2454000
+Mahindra,Scorpio,2,24725,Diesel,Automatic,1744149,1377000
+BMW,7 Series,6,81089,Petrol,Automatic,15182582,5809000
+Volkswagen,Polo,9,108484,Diesel,Automatic,761777,76000
+Maruti Suzuki,Dzire,4,42606,Diesel,Manual,807117,374000
+Audi,Q5,3,45705,Diesel,Automatic,6983767,4140000
+Skoda,Slavia,8,92993,Petrol,Automatic,1310679,331000
+Mercedes-Benz,GLE,10,100764,Petrol,Automatic,9362696,1357000
+Tata,Harrier,9,75708,Diesel,Manual,2237831,581000
+Maruti Suzuki,Baleno,5,71527,Diesel,Manual,831580,297000
+Honda,Elevate,9,124817,Diesel,Manual,1386405,139000
+Mahindra,Scorpio,2,29013,Diesel,Automatic,1854284,1376000
+Mercedes-Benz,GLA,3,32044,Diesel,Automatic,5159478,2960000
+Audi,A6,7,94873,Diesel,Automatic,6566793,1932000
+Maruti Suzuki,Alto,7,81071,Petrol,Automatic,475895,61000
+Mercedes-Benz,E-Class,6,73366,Petrol,Automatic,8435720,2578000
+Maruti Suzuki,Ciaz,6,57399,Diesel,Automatic,1080689,420000
+Mahindra,XUV700,2,29718,Diesel,Automatic,2570589,1966000
+Audi,A6,10,108130,Diesel,Automatic,6913467,1059000
+Honda,City,6,86794,Petrol,Automatic,1505310,548000
+Hyundai,Alcazar,4,61054,Diesel,Automatic,1977170,1091000
+Volkswagen,Taigun,3,29853,Diesel,Automatic,1385140,954000
+Honda,Civic,2,29581,Petrol,Manual,2174085,1638000
+Hyundai,i20,1,16863,Petrol,Manual,959254,813000
+Tata,Tigor,5,75663,Petrol,Automatic,710639,243000
+BMW,7 Series,2,28587,Petrol,Automatic,14994288,11634000
+Skoda,Kodiaq,2,18379,Petrol,Automatic,3907197,3022000
+Skoda,Superb,7,104849,Petrol,Automatic,3833279,1368000
+Volkswagen,Polo,8,103737,Petrol,Automatic,854358,93000
+Audi,Q3,10,119520,Diesel,Automatic,4760929,657000
+Mahindra,XUV700,8,82737,Diesel,Automatic,2624632,902000
+Audi,A4,4,42784,Diesel,Automatic,4789077,2301000
+Mahindra,XUV300,1,12616,Petrol,Manual,1081237,894000
+Audi,Q7,7,103090,Petrol,Automatic,9464580,3228000
+BMW,5 Series,1,17508,Diesel,Automatic,7659081,6510000
+Tata,Curvv,4,52334,Petrol,Manual,1377230,743000
+Tata,Tiago,8,106128,CNG,Automatic,576894,58000
+Hyundai,Creta,2,30716,Diesel,Manual,1714523,1256000
+Mercedes-Benz,GLC,6,84755,Petrol,Automatic,8223564,2965000
+Tata,Nexon,6,50589,CNG,Automatic,1256041,425000
+Tata,Safari,9,107214,Petrol,Automatic,2380032,571000
+Honda,Civic,5,63679,Petrol,Manual,2418901,1088000
+Honda,Jazz,10,105121,Diesel,Automatic,921391,92000
+Hyundai,Grand i10 Nios,4,34086,Petrol,Automatic,667554,353000
+Mercedes-Benz,E-Class,5,59191,Diesel,Automatic,8375625,3746000
+Volkswagen,Tiguan,10,149731,Petrol,Automatic,3753305,706000
+Honda,Civic,5,76361,Petrol,Manual,2398483,1188000
+Volkswagen,Tiguan,8,81021,Diesel,Manual,3766485,1070000
+Maruti Suzuki,Baleno,10,160719,Diesel,Manual,889569,89000
+Honda,Civic,8,106528,Petrol,Automatic,2291070,708000
+BMW,X1,2,27810,Petrol,Automatic,4896497,3848000
+Mercedes-Benz,GLA,7,105603,Diesel,Automatic,5011069,1183000
+Hyundai,Venue,8,77847,Petrol,Manual,1069282,194000
+Maruti Suzuki,Brezza,6,95911,Diesel,Manual,1204891,388000
+Mercedes-Benz,E-Class,5,47655,Diesel,Automatic,7956726,3079000
+BMW,5 Series,9,83239,Diesel,Automatic,7459545,1548000
+Mercedes-Benz,C-Class,3,38340,Diesel,Automatic,5591964,3496000
+BMW,5 Series,10,80053,Petrol,Automatic,7561967,1324000
+BMW,7 Series,4,53428,Diesel,Automatic,15667321,8220000
+Volkswagen,Polo,9,87289,Diesel,Automatic,762140,104000
+Audi,A6,6,62541,Petrol,Automatic,6702632,2576000
+Maruti Suzuki,WagonR,8,81921,CNG,Manual,577963,58000
+Mercedes-Benz,C-Class,7,88649,Petrol,Automatic,5246766,1595000
+Mahindra,Marazzo,2,27446,Petrol,Automatic,1496151,1183000
+Maruti Suzuki,Brezza,3,37043,Petrol,Manual,1087677,687000
+Audi,A4,1,20023,Petrol,Automatic,4805271,4084000
+Maruti Suzuki,Brezza,9,134205,Petrol,Manual,1055573,106000
+Tata,Tiago,7,70525,Diesel,Manual,586155,82000
+Mahindra,XUV700,1,16087,Diesel,Automatic,2555617,2172000
+Audi,Q5,3,38354,Petrol,Automatic,6963401,4237000
+Volkswagen,Polo,4,40786,Petrol,Automatic,865680,466000
+Mercedes-Benz,GLC,4,47589,Diesel,Automatic,7571897,3966000
+Skoda,Slavia,5,42608,Petrol,Manual,1336911,674000
+Audi,Q5,3,33496,Diesel,Automatic,6814551,4027000
+Hyundai,Grand i10 Nios,3,30272,Petrol,Automatic,686995,410000
+Mercedes-Benz,C-Class,1,13564,Petrol,Automatic,5682879,4830000
+Audi,Q7,7,100193,Diesel,Automatic,9770658,2591000
+Tata,Safari,10,145793,Petrol,Manual,2496780,449000
+Skoda,Superb,1,13462,Petrol,Automatic,3686229,3133000
+Tata,Punch,2,29631,Petrol,Automatic,800897,630000
+Skoda,Kodiaq,4,52416,Petrol,Automatic,4368520,2713000
+Hyundai,Grand i10 Nios,4,40349,Petrol,Manual,652194,308000
+Mercedes-Benz,GLC,5,55716,Diesel,Automatic,7406110,2742000
+Volkswagen,Vento,2,25432,Petrol,Automatic,1146675,891000
+Tata,Tigor,4,38751,Petrol,Automatic,717381,381000
+Tata,Safari,1,8885,Diesel,Automatic,2636106,2241000
+BMW,5 Series,2,25771,Petrol,Automatic,7339350,5611000
+Skoda,Kodiaq,1,13803,Petrol,Automatic,3844598,3268000
+Honda,Civic,10,89851,Diesel,Automatic,2412531,464000
+Mercedes-Benz,S-Class,10,124655,Diesel,Automatic,18301146,3058000
+Skoda,Kodiaq,4,43285,Diesel,Manual,3906950,2109000
+BMW,X1,4,47770,Diesel,Automatic,5211315,2497000
+Maruti Suzuki,Dzire,7,99927,Petrol,Manual,750825,126000
+Skoda,Octavia,10,156638,Diesel,Manual,2818387,541000
+Volkswagen,Vento,9,81282,Petrol,Automatic,1194554,242000
+Mercedes-Benz,S-Class,9,69790,Petrol,Automatic,17501794,2695000
+BMW,7 Series,5,63357,Petrol,Automatic,14559966,6070000
+Maruti Suzuki,Dzire,10,132544,Petrol,Automatic,754018,75000
+Mahindra,XUV300,1,13901,Petrol,Manual,1164146,990000
+BMW,X5,1,10901,Petrol,Automatic,9566050,8131000
+Mahindra,XUV400,6,93267,Petrol,Automatic,1765508,749000
+Mercedes-Benz,GLE,2,15684,Petrol,Automatic,10015765,7497000
+Tata,Tigor,8,75764,Petrol,Manual,701104,121000
+BMW,5 Series,9,92710,Petrol,Automatic,7589391,1267000
+Hyundai,Venue,4,36192,Diesel,Automatic,1082631,524000
+Mahindra,XUV400,5,45160,Petrol,Manual,1735389,761000
+Volkswagen,Tiguan,8,86280,Petrol,Automatic,3526027,1105000
+Hyundai,Exter,3,24405,Petrol,Automatic,740755,458000
+Audi,A6,5,66431,Diesel,Automatic,6764100,2697000
+Audi,Q7,3,52133,Petrol,Automatic,9737800,5883000
+Maruti Suzuki,Swift,10,134932,Petrol,Manual,699089,70000
+Tata,Tiago,3,46662,Petrol,Automatic,605661,331000
+Mercedes-Benz,GLE,3,52495,Petrol,Automatic,9604441,5974000
+BMW,5 Series,7,63897,Petrol,Automatic,7445677,2113000
+Honda,Amaze,7,109342,Diesel,Manual,836622,114000
+Volkswagen,Tiguan,7,101593,Diesel,Automatic,3756660,1294000
+Mahindra,XUV300,10,145936,Diesel,Automatic,1093774,109000
+Mercedes-Benz,GLE,8,125010,Petrol,Automatic,10030141,2622000
+Hyundai,Creta,5,60330,Petrol,Automatic,1643171,873000
+Audi,Q7,5,42921,Petrol,Automatic,9340961,3984000
+Volkswagen,Tiguan,4,48038,CNG,Automatic,3419294,1773000
+Honda,Civic,7,87300,Diesel,Automatic,2332557,789000
+BMW,3 Series,10,84243,Diesel,Automatic,5087124,626000
+Maruti Suzuki,Brezza,4,47325,Petrol,Manual,1063723,575000
+Honda,City,2,30615,Petrol,Manual,1548002,1158000
+Volkswagen,Vento,4,53995,Petrol,Automatic,1162034,534000
+Honda,Elevate,8,113028,Diesel,Manual,1340507,226000
+Volkswagen,Tiguan,9,82485,Diesel,Manual,3361432,672000
+Volkswagen,Vento,3,46152,CNG,Manual,1177442,666000
+Skoda,Kodiaq,7,98672,Petrol,Manual,4285419,1552000
+Mahindra,Scorpio,9,114861,Petrol,Automatic,1776232,390000
+Audi,Q5,4,38707,Diesel,Automatic,7087532,3445000
+Skoda,Kushaq,10,147394,Diesel,Automatic,1423067,180000
+BMW,X3,3,35844,Petrol,Automatic,7314330,4716000
+Skoda,Superb,5,76851,Petrol,Automatic,3885954,2002000
+Tata,Altroz,1,18508,Petrol,Manual,769582,654000
+Tata,Curvv,3,33228,Petrol,Automatic,1493376,1024000
+Audi,Q3,8,125311,Petrol,Automatic,4710190,792000
+Honda,City,8,99339,Diesel,Manual,1551928,369000
+Mahindra,XUV300,4,54691,Petrol,Manual,1152898,611000
+Audi,Q5,2,36368,Petrol,Automatic,7401075,5437000
+Volkswagen,Tiguan,8,119853,Petrol,Manual,3354777,949000
+Hyundai,Alcazar,8,71373,Diesel,Manual,1717958,561000
+Mahindra,Scorpio,10,108671,Diesel,Automatic,1758130,237000
+Mahindra,XUV300,4,66071,Petrol,Manual,1207763,505000
+Volkswagen,Virtus,3,29610,Diesel,Automatic,1427302,1005000
+Volkswagen,Tiguan,2,23841,Diesel,Automatic,3647686,2697000
+Maruti Suzuki,Swift,9,93155,Petrol,Manual,669939,67000
+Audi,A4,1,14068,Petrol,Automatic,5192959,4414000
+Volkswagen,Taigun,7,67397,Diesel,Manual,1500678,528000
+Tata,Curvv,5,68468,Diesel,Automatic,1469608,727000
+BMW,3 Series,8,104583,Diesel,Automatic,5204522,919000
+Hyundai,Aura,4,40592,Diesel,Automatic,768460,426000
+Audi,A4,7,70847,Diesel,Automatic,4977627,1565000
+Mercedes-Benz,E-Class,5,73226,Petrol,Automatic,8252042,3523000
+Tata,Punch,5,68423,Petrol,Manual,723102,279000
+Honda,Jazz,9,130429,Petrol,Automatic,888305,89000
+Volkswagen,Taigun,9,111345,Petrol,Manual,1390136,229000
+Mercedes-Benz,E-Class,9,106910,Diesel,Automatic,8304165,1524000
+Volkswagen,Virtus,6,88669,Diesel,Automatic,1391772,520000
+Mahindra,Scorpio,6,54630,Diesel,Manual,1744839,598000
+Tata,Curvv,5,63220,Petrol,Manual,1440569,631000
+Mahindra,Bolero,9,91341,Diesel,Manual,1009360,112000
+Maruti Suzuki,WagonR,10,131644,Petrol,Manual,586232,59000
+Mahindra,XUV300,8,122658,Petrol,Automatic,1183850,204000
+Maruti Suzuki,Dzire,7,81039,Diesel,Automatic,713740,154000
+Maruti Suzuki,Baleno,7,81326,Diesel,Manual,847296,186000
+Mercedes-Benz,GLA,6,89320,Petrol,Automatic,4569068,1492000
+Volkswagen,Taigun,5,44292,Petrol,Manual,1350161,641000
+Honda,City,4,39177,Petrol,Manual,1491846,791000
+Mahindra,Bolero,3,32548,Petrol,Automatic,958140,624000
+Tata,Safari,3,46894,Petrol,Manual,2494786,1600000
+Maruti Suzuki,WagonR,6,81095,Diesel,Automatic,577817,117000
+Volkswagen,Tiguan,4,58528,Diesel,Automatic,3693399,2190000
+Hyundai,Verna,6,85507,Diesel,Automatic,1341054,459000
+Audi,Q7,3,35662,Petrol,Automatic,8630067,5771000
+Mercedes-Benz,GLC,4,39295,Diesel,Automatic,7468491,3853000
+Honda,City,9,75765,Petrol,Automatic,1626728,335000
+Skoda,Kodiaq,5,67796,Diesel,Automatic,4184835,2192000
+Mercedes-Benz,GLE,7,88269,Petrol,Automatic,10122437,2788000
+Hyundai,Tucson,10,143540,Petrol,Manual,3107945,620000
+Audi,A4,2,26894,Petrol,Automatic,5160570,3695000
+Hyundai,Exter,5,70982,Diesel,Manual,713416,192000
+Mahindra,Thar,9,115215,Petrol,Manual,1571133,289000
+Maruti Suzuki,Swift,3,48276,Petrol,Automatic,729689,404000
+Honda,Jazz,9,82062,Diesel,Manual,855343,129000
+BMW,X1,6,64522,Petrol,Automatic,5268619,1866000
+Maruti Suzuki,WagonR,4,56953,Petrol,Manual,572730,231000
+BMW,X1,7,95836,Petrol,Automatic,5278990,1758000
+Audi,A4,8,107417,Petrol,Automatic,5009012,925000
+Volkswagen,Tiguan,6,57811,Diesel,Automatic,3618321,1536000
+Skoda,Superb,5,60986,Diesel,Manual,3452136,1527000
+Tata,Tiago,6,77043,Petrol,Manual,594599,174000
+Maruti Suzuki,WagonR,5,57802,CNG,Automatic,653219,243000
+Honda,Amaze,8,103557,Petrol,Manual,852666,85000
+Hyundai,Grand i10 Nios,1,12459,Petrol,Automatic,682011,580000
+Honda,Elevate,7,99404,Petrol,Manual,1539894,414000
+Audi,Q5,10,117891,Petrol,Automatic,6728331,911000
+BMW,X1,10,93077,Petrol,Automatic,4974778,589000
+Hyundai,Exter,2,18011,Diesel,Manual,790849,542000
+Tata,Harrier,9,104146,Diesel,Automatic,2144326,564000
+Tata,Punch,1,16001,Petrol,Automatic,729225,620000
+Maruti Suzuki,Brezza,10,118115,Diesel,Manual,1120290,112000
+Audi,Q3,6,53372,Diesel,Automatic,4636210,1415000
+Volkswagen,Virtus,9,98929,Diesel,Automatic,1427128,288000
+Audi,Q7,1,14388,Diesel,Automatic,8643836,6952000
+BMW,X5,4,37579,Petrol,Automatic,10739084,5673000
+Honda,WR-V,4,57703,Diesel,Automatic,904534,461000
+Tata,Tigor,9,101253,Diesel,Automatic,728138,73000
+Honda,Amaze,5,74726,Diesel,Automatic,879235,349000
+Honda,WR-V,5,64652,Petrol,Automatic,921696,377000
+Honda,Civic,6,68570,Petrol,Automatic,2139802,911000
+Tata,Nexon,1,7296,Petrol,Manual,1282681,1070000
+Mercedes-Benz,C-Class,1,16935,Petrol,Automatic,5957239,5064000
+Mahindra,XUV700,9,81579,Petrol,Manual,2381886,722000
+BMW,5 Series,3,42217,Diesel,Automatic,7313001,4435000
+Mercedes-Benz,E-Class,4,51674,Petrol,Automatic,7825344,3868000
+BMW,X1,1,8314,Diesel,Automatic,4612233,3920000
+Hyundai,i20,9,76162,Petrol,Automatic,945882,239000
+Audi,Q5,8,115752,Petrol,Automatic,7301696,1751000
+Audi,Q5,2,23704,Petrol,Automatic,6770976,5132000
+Skoda,Slavia,8,101213,Petrol,Manual,1483010,381000
+Audi,A4,7,110343,Diesel,Automatic,4614613,961000
+Tata,Nexon,6,84068,Diesel,Automatic,1259122,426000
+Volkswagen,Virtus,1,12227,CNG,Manual,1373266,987000
+Maruti Suzuki,Dzire,7,64171,Petrol,Automatic,762742,227000
+Skoda,Kushaq,10,102611,Petrol,Automatic,1426105,256000
+Maruti Suzuki,Ciaz,7,67296,Diesel,Manual,1087682,307000
+BMW,X5,9,86853,Petrol,Automatic,10361877,1943000
+Maruti Suzuki,Alto,1,16279,Diesel,Automatic,476206,373000
+Maruti Suzuki,WagonR,2,31252,Petrol,Automatic,595415,429000
+Skoda,Kushaq,9,104345,Petrol,Automatic,1505414,263000
+Hyundai,Alcazar,9,101199,Petrol,Manual,1795548,328000
+Honda,Jazz,6,63159,Petrol,Manual,899949,329000
+Audi,Q7,6,60627,Diesel,Automatic,8713349,3219000
+Audi,Q5,4,30693,Diesel,Automatic,6632075,3207000
+Tata,Altroz,4,55188,Petrol,Manual,797895,342000
+Skoda,Octavia,5,59750,Diesel,Automatic,2909426,1381000
+Tata,Altroz,3,34498,Petrol,Manual,837461,534000
+Volkswagen,Taigun,1,7329,Petrol,Manual,1413234,1201000
+Volkswagen,Virtus,1,14849,Petrol,Manual,1298262,1097000
+Tata,Safari,7,64172,Diesel,Manual,2414508,841000
+Skoda,Slavia,1,14163,Diesel,Automatic,1421975,1159000
+Tata,Nexon,1,11968,Diesel,Automatic,1260779,1026000
+Audi,Q3,3,31963,Diesel,Automatic,4480535,2910000
+Mercedes-Benz,S-Class,10,92553,Diesel,Automatic,16169849,2954000
+Mahindra,Bolero,4,35360,CNG,Manual,1062947,488000
+Maruti Suzuki,Ciaz,4,39702,Diesel,Manual,1062550,530000
+Mahindra,XUV700,2,26679,Diesel,Manual,2309645,1549000
+Skoda,Kushaq,1,12045,Petrol,Automatic,1330567,1131000
+Mahindra,XUV400,3,39826,Petrol,Manual,1725313,1045000
+Volkswagen,Vento,4,57241,Petrol,Automatic,1128038,632000
+BMW,7 Series,3,31396,Petrol,Automatic,15684744,9856000
+Maruti Suzuki,Alto,8,91549,Diesel,Automatic,447484,45000
+Honda,Jazz,10,130792,Petrol,Automatic,898079,90000
+Skoda,Superb,1,14038,Diesel,Automatic,3511439,2983000
+Maruti Suzuki,Brezza,2,34321,Petrol,Automatic,1182278,919000
+Mahindra,XUV400,7,98533,Petrol,Automatic,1760821,579000
+Volkswagen,Taigun,4,51783,Petrol,Automatic,1452616,827000
+Hyundai,Tucson,8,74474,CNG,Manual,3140692,873000
+Mercedes-Benz,GLE,3,30427,Petrol,Automatic,9130604,5148000
+Honda,Elevate,6,51393,Petrol,Automatic,1427592,648000
+Mercedes-Benz,E-Class,9,82929,Diesel,Automatic,8130265,1484000
+Maruti Suzuki,Dzire,1,14410,Diesel,Manual,723192,611000
+Volkswagen,Taigun,1,12345,Petrol,Manual,1529612,1232000
+Volkswagen,Vento,8,126923,Petrol,Automatic,1206768,238000
+Mahindra,XUV700,3,34148,Petrol,Manual,2476364,1668000
+Audi,A6,5,62753,Petrol,Automatic,7101317,2712000
+Mahindra,XUV300,1,19825,Petrol,Manual,1074608,889000
+Audi,Q7,5,46812,Petrol,Automatic,8584317,3443000
+Audi,Q7,6,71589,Petrol,Automatic,8603202,3290000
+Honda,WR-V,8,87245,Petrol,Automatic,986220,219000
+Mahindra,XUV400,3,45995,Diesel,Manual,1630718,1066000
+Hyundai,Tucson,3,34831,Petrol,Automatic,3500101,2483000
+Tata,Tigor,10,86049,Petrol,Automatic,679902,68000
+Tata,Safari,9,85616,Petrol,Manual,2389700,686000
+Mahindra,Marazzo,4,42843,Petrol,Automatic,1502728,898000
+Mahindra,Bolero,4,63541,Petrol,Manual,982811,464000
+Mercedes-Benz,GLA,7,101007,Diesel,Automatic,4734937,1156000
+Honda,WR-V,2,31581,Diesel,Automatic,994029,723000
+Mahindra,XUV400,8,122544,Diesel,Manual,1685401,410000
+Mercedes-Benz,GLA,6,66171,Diesel,Automatic,4716562,1456000
+Audi,A4,3,28476,Diesel,Automatic,4743007,2901000
+Volkswagen,Vento,9,107153,Petrol,Manual,1125956,174000
+Volkswagen,Tiguan,5,43487,Diesel,Manual,3832202,1722000
+Audi,Q7,8,106261,Diesel,Automatic,9673521,2421000
+Skoda,Kushaq,7,100716,Diesel,Manual,1389768,377000
+Mercedes-Benz,E-Class,8,118352,Petrol,Automatic,7835146,1703000
+Mercedes-Benz,GLE,7,106807,Petrol,Automatic,9686929,2863000
+Audi,Q7,3,32512,Diesel,Automatic,9871555,5743000
+Hyundai,Grand i10 Nios,2,24747,Diesel,Automatic,634308,459000
+BMW,X1,7,89442,Petrol,Automatic,4817387,1312000
+Maruti Suzuki,Baleno,3,29238,Petrol,Manual,900501,520000
+Audi,Q3,3,22127,Petrol,Automatic,5035121,3100000
+Mahindra,Marazzo,2,25987,Petrol,Manual,1362691,990000
+Mahindra,Bolero,4,55687,Diesel,Automatic,984106,517000
+Honda,Jazz,8,121042,Petrol,Automatic,836276,110000
+Audi,Q3,1,13636,Petrol,Automatic,4384443,3727000
+Honda,Jazz,1,18676,CNG,Automatic,884524,650000
+Audi,Q7,5,67246,Petrol,Automatic,9455449,3587000
+Mercedes-Benz,C-Class,5,64972,Diesel,Automatic,5722083,2176000
+Maruti Suzuki,WagonR,1,19640,Petrol,Automatic,576419,490000
+Mercedes-Benz,GLA,6,67764,Diesel,Automatic,4609845,1339000
+BMW,7 Series,1,9855,Diesel,Automatic,14723369,12515000
+Volkswagen,Polo,5,74757,Diesel,Automatic,794835,296000
+Tata,Safari,9,141935,Diesel,Automatic,2563155,556000
+Audi,Q7,5,57446,Petrol,Automatic,8765176,3772000
+BMW,7 Series,6,72771,Petrol,Automatic,14349207,5336000
+Volkswagen,Vento,8,87685,Petrol,Automatic,1110007,277000
+Skoda,Slavia,1,15143,Diesel,Manual,1366819,1162000
+Maruti Suzuki,Ertiga,2,20352,Diesel,Manual,1068517,749000
+Honda,Amaze,9,103672,Petrol,Automatic,912930,105000
+Honda,Amaze,3,32694,Diesel,Manual,819995,484000
+Mercedes-Benz,C-Class,6,72791,Petrol,Automatic,5805752,1991000
+Mahindra,Bolero,5,71237,Diesel,Automatic,1000691,433000
+Volkswagen,Tiguan,2,24678,CNG,Automatic,3487739,2522000
+Skoda,Octavia,7,91683,Petrol,Automatic,3051668,1179000
+BMW,3 Series,4,64915,Petrol,Automatic,5133805,2446000
+Maruti Suzuki,Alto,1,10834,Petrol,Manual,470870,400000
+Volkswagen,Polo,4,37722,Diesel,Manual,793015,400000
+Skoda,Kushaq,6,60306,Petrol,Automatic,1436500,549000
+Tata,Altroz,7,81479,Petrol,Manual,854355,212000
+Audi,Q3,7,61738,Petrol,Automatic,4978388,1358000
+Honda,City,7,69800,Petrol,Manual,1613706,570000
+BMW,5 Series,3,51442,Petrol,Automatic,7468755,4706000
+Honda,Jazz,6,57371,Diesel,Manual,839224,281000
+BMW,7 Series,8,78476,Petrol,Automatic,15737775,4004000
+Mercedes-Benz,GLA,4,59846,Diesel,Automatic,5071131,2135000
+Mahindra,Thar,8,114763,Diesel,Manual,1522566,272000
+BMW,5 Series,2,24608,Petrol,Automatic,7314347,5395000
+Honda,City,10,142618,Petrol,Automatic,1614733,278000
+Mercedes-Benz,GLE,9,135622,Diesel,Automatic,9722662,1976000
+BMW,3 Series,9,115277,Diesel,Automatic,5182872,1169000
+Tata,Punch,8,87835,Petrol,Manual,810577,135000
+Mahindra,Bolero,10,144402,Petrol,Automatic,973382,97000
+BMW,7 Series,10,119540,Petrol,Automatic,14714501,3129000
+Mercedes-Benz,E-Class,1,16287,Diesel,Automatic,8214225,6952000
+Volkswagen,Virtus,2,25235,Petrol,Manual,1353868,963000
+Hyundai,Alcazar,6,84127,Petrol,Automatic,1902514,794000
+Skoda,Superb,10,144391,Diesel,Automatic,3505159,847000
+Hyundai,i20,5,77774,Diesel,Automatic,889056,313000
+Hyundai,Aura,9,128256,Petrol,Automatic,778797,78000
+Maruti Suzuki,Baleno,5,66412,Petrol,Automatic,928996,390000
+Tata,Tiago,2,15499,Diesel,Manual,606486,432000
+Volkswagen,Taigun,10,140897,Petrol,Automatic,1400816,158000
+Audi,Q5,4,45416,Petrol,Automatic,6474486,3250000
+BMW,X1,9,118054,Diesel,Automatic,4670460,758000
+Skoda,Octavia,1,11316,Petrol,Manual,2836877,2411000
+Mahindra,Marazzo,1,10618,Diesel,Automatic,1344385,1143000
+Volkswagen,Polo,7,100351,Diesel,Manual,821288,128000
+Honda,Jazz,3,28322,Petrol,Automatic,865514,555000
+Audi,A6,10,126106,Petrol,Automatic,6922988,957000
+Maruti Suzuki,Alto,2,18683,Diesel,Manual,472036,324000
+Maruti Suzuki,Alto,9,71805,Diesel,Manual,457601,46000
+Volkswagen,Vento,3,31406,Diesel,Manual,1082069,650000
+Mercedes-Benz,E-Class,2,33335,Diesel,Automatic,8260430,5695000
+Hyundai,Tucson,8,117332,Petrol,Manual,3379773,963000
+Honda,WR-V,10,133502,Diesel,Manual,924344,92000
+Maruti Suzuki,Brezza,6,81057,Petrol,Automatic,1195934,441000
+Skoda,Kushaq,6,78675,Petrol,Manual,1343525,476000
+Maruti Suzuki,Ertiga,10,88618,Petrol,Automatic,1006168,149000
+Mahindra,XUV400,7,63111,Petrol,Manual,1662774,586000
+BMW,X5,7,103436,Diesel,Automatic,10646907,2517000
+Maruti Suzuki,Grand Vitara,6,67590,Petrol,Automatic,1439199,538000
+Mahindra,Marazzo,4,32344,Petrol,Automatic,1495467,881000
+Volkswagen,Tiguan,9,145439,Petrol,Manual,3444617,824000
+Volkswagen,Virtus,6,56028,Diesel,Automatic,1381769,514000
+Audi,Q5,4,58364,Diesel,Automatic,6825455,3618000
+Maruti Suzuki,Ignis,3,48238,Petrol,Automatic,698213,430000
+Skoda,Kodiaq,4,53162,Petrol,Manual,3813562,2003000
+Maruti Suzuki,Alto,3,46836,Petrol,Manual,443959,223000
+Skoda,Slavia,2,29041,Diesel,Automatic,1313396,980000
+Tata,Safari,5,68392,Diesel,Automatic,2589308,1362000
+Audi,Q5,2,19458,Petrol,Automatic,6936894,4825000
+Tata,Tiago,6,78275,Diesel,Automatic,606379,181000
+Maruti Suzuki,Brezza,3,48091,Petrol,Manual,1119164,648000
+Audi,Q7,6,94842,Diesel,Automatic,9862098,3464000
+Tata,Curvv,10,149283,Petrol,Manual,1508556,151000
+Hyundai,Exter,9,87994,Petrol,Automatic,791966,89000
+Maruti Suzuki,Alto,1,17160,Petrol,Manual,447107,340000
+Tata,Punch,6,76865,Petrol,Automatic,731081,239000
+Hyundai,Tucson,9,115546,Diesel,Automatic,3482288,882000
+Hyundai,Tucson,4,61306,Petrol,Automatic,3243076,1925000
+Volkswagen,Virtus,2,28946,Diesel,Automatic,1338948,1095000
+Maruti Suzuki,Baleno,4,43875,Diesel,Automatic,867542,474000
+Hyundai,Verna,1,10496,Petrol,Automatic,1522747,1294000
+Volkswagen,Vento,3,32747,Petrol,Manual,1108866,676000
+Tata,Punch,10,114268,Petrol,Manual,775797,78000
+Mahindra,Thar,9,73458,Diesel,Manual,1712711,433000
+Maruti Suzuki,Swift,10,131328,Petrol,Manual,709848,71000
+Audi,Q3,5,63498,Petrol,Automatic,4531143,1669000
+Skoda,Kodiaq,6,50466,Petrol,Manual,4396715,2047000
+Skoda,Superb,3,41724,Diesel,Automatic,3936548,2758000
+Tata,Tigor,5,47124,Petrol,Automatic,753565,314000
+Mercedes-Benz,E-Class,8,93670,Petrol,Automatic,8215397,1891000
+Mercedes-Benz,S-Class,6,52825,Petrol,Automatic,16901907,5366000
+Tata,Tiago,4,59303,Petrol,Automatic,652207,292000
+Hyundai,Grand i10 Nios,2,20142,Diesel,Manual,644366,449000
+Maruti Suzuki,Brezza,9,120410,Petrol,Manual,1177133,212000
+Skoda,Kodiaq,1,12303,Diesel,Automatic,4350954,3698000
+Skoda,Superb,1,16290,Diesel,Automatic,3745622,3184000
+Hyundai,Exter,4,48907,Diesel,Manual,802843,413000
+Skoda,Slavia,7,72684,Diesel,Automatic,1442818,383000
+Audi,A4,1,20030,Petrol,Automatic,4699073,3994000
+Maruti Suzuki,Baleno,9,110447,Petrol,Manual,892660,89000
+BMW,X3,4,62923,Diesel,Automatic,6748141,3355000
+Skoda,Slavia,3,28154,Petrol,Automatic,1385339,951000
+Tata,Harrier,1,8832,Diesel,Automatic,2143537,1822000
+Audi,Q5,10,150818,Petrol,Automatic,6884676,951000
+Skoda,Octavia,4,53481,Diesel,Manual,3009852,1727000
+Audi,Q3,9,79589,Diesel,Automatic,5051145,1029000
+Volkswagen,Taigun,10,90605,Petrol,Manual,1396771,214000
+BMW,X3,6,83132,Petrol,Automatic,7208553,2708000
+Honda,WR-V,6,91497,Diesel,Automatic,975359,354000
+Tata,Tiago,1,16956,Diesel,Manual,655896,512000
+Tata,Nexon,10,93677,Petrol,Automatic,1226145,245000
+Maruti Suzuki,Swift,2,26970,Diesel,Manual,738406,489000
+Audi,Q5,6,95253,Petrol,Automatic,7400225,2887000
+Hyundai,Grand i10 Nios,2,24463,Petrol,Manual,653904,452000
+Tata,Curvv,3,34150,Diesel,Automatic,1519445,1026000
+Audi,Q3,4,46836,Diesel,Automatic,5003044,2476000
+Audi,Q5,5,76213,Diesel,Automatic,7409275,2617000
+Mahindra,Thar,9,108289,Diesel,Automatic,1584907,403000
+Mahindra,Marazzo,4,60179,Petrol,Manual,1414074,702000
+Honda,City,9,147036,Diesel,Manual,1620839,177000
+Volkswagen,Virtus,10,129080,Petrol,Automatic,1355230,136000
+Honda,Jazz,3,35793,Petrol,Automatic,884032,637000
+Skoda,Slavia,8,92557,Petrol,Manual,1306406,254000
+Hyundai,Grand i10 Nios,1,11605,Petrol,Manual,622986,530000
+Skoda,Kodiaq,9,131664,Petrol,Automatic,4047196,970000
+Mercedes-Benz,E-Class,9,96078,Petrol,Automatic,8087332,1371000
+Skoda,Kushaq,10,155446,Petrol,Automatic,1412466,141000
+Maruti Suzuki,Brezza,2,31587,Petrol,Automatic,1140326,887000
+Skoda,Kodiaq,4,34538,Diesel,Automatic,4109050,2424000
+Honda,Elevate,8,109801,Petrol,Manual,1473998,282000
+Tata,Nexon,7,103483,Petrol,Manual,1256915,360000
+Tata,Tigor,1,13918,Diesel,Automatic,709545,603000
+Mahindra,XUV400,5,69797,Diesel,Automatic,1723373,819000
+Hyundai,Alcazar,7,68757,Diesel,Automatic,1748010,662000
+Hyundai,Alcazar,4,49186,Petrol,Manual,1848574,1001000
+Maruti Suzuki,Swift,1,10984,Diesel,Manual,726653,602000
+Honda,Elevate,9,111552,Petrol,Manual,1430062,237000
+Mahindra,XUV300,5,45111,Petrol,Automatic,1098741,479000
+Mercedes-Benz,GLA,2,28198,Petrol,Automatic,5079586,3779000
+Hyundai,Venue,8,122617,Diesel,Manual,961199,125000
+Tata,Harrier,2,21980,Petrol,Manual,2391765,1810000
+Skoda,Kushaq,3,36819,Petrol,Manual,1334335,858000
+Skoda,Octavia,10,154599,Petrol,Automatic,3064187,739000
+Mahindra,XUV400,1,13461,Diesel,Automatic,1732900,1473000
+Honda,Amaze,2,20820,Diesel,Manual,860115,579000
+Honda,Elevate,7,86959,Petrol,Manual,1383853,399000
+Volkswagen,Tiguan,10,106773,Diesel,Manual,3330287,692000
+BMW,X5,2,34014,Petrol,Automatic,9713941,7487000
+Hyundai,Venue,6,70512,Diesel,Manual,966409,312000
+Honda,Civic,3,32112,Petrol,Automatic,2307740,1526000
+Tata,Nexon,4,40043,Diesel,Manual,1197433,649000
+Mahindra,XUV300,8,118643,Petrol,Manual,1171584,230000
+Mercedes-Benz,E-Class,3,46756,Diesel,Automatic,7652091,4554000
+Volkswagen,Tiguan,10,105603,Petrol,Automatic,3797623,1028000
+Audi,Q5,6,56480,Petrol,Automatic,6993441,2730000
+Maruti Suzuki,Grand Vitara,1,11930,Petrol,Automatic,1354046,1151000
+Mercedes-Benz,E-Class,7,99354,Petrol,Automatic,7878988,2062000
+Audi,Q5,8,70863,Petrol,Automatic,6670895,1615000
+Skoda,Kushaq,8,100738,Diesel,Manual,1371933,322000
+Maruti Suzuki,Brezza,3,49681,Petrol,Automatic,1128551,717000
+Hyundai,i20,10,156638,Diesel,Manual,945705,95000
+Tata,Curvv,1,16323,Diesel,Manual,1521439,1265000
+Maruti Suzuki,Ignis,9,128123,Diesel,Automatic,666460,67000
+BMW,X3,6,92607,Diesel,Automatic,7664130,2496000
+Audi,A4,9,140112,Diesel,Automatic,5237977,987000
+Hyundai,Alcazar,7,104111,Petrol,Manual,1943566,660000
+BMW,7 Series,1,9579,Diesel,Automatic,15374948,11391000
+Skoda,Superb,1,20208,Petrol,Automatic,3496088,2972000
+BMW,X3,6,46717,Diesel,Automatic,6878799,2497000
+Volkswagen,Vento,5,44422,Diesel,Automatic,1151865,497000
+Volkswagen,Taigun,9,85366,Petrol,Automatic,1418568,297000
+Mahindra,Marazzo,2,17589,Petrol,Automatic,1360828,1133000
+Mercedes-Benz,GLC,8,86214,Petrol,Automatic,7663868,1738000
+Mercedes-Benz,C-Class,5,48794,Diesel,Automatic,5239380,2392000
+Hyundai,Grand i10 Nios,2,25463,Diesel,Automatic,689054,481000
+Skoda,Kodiaq,10,88757,Petrol,Automatic,3844148,1128000
+Honda,WR-V,6,62198,Diesel,Automatic,992148,356000
+Volkswagen,Vento,10,148832,Diesel,Automatic,1175846,118000
+Hyundai,Alcazar,8,127816,Petrol,Automatic,1745813,496000
+Honda,Civic,4,50609,Petrol,Manual,2261150,1183000
+Mercedes-Benz,GLA,2,16705,Diesel,Automatic,5120928,3524000
+Mahindra,Marazzo,5,52465,Diesel,Manual,1384733,631000
+BMW,X3,2,23772,Diesel,Automatic,6821062,4871000
+Volkswagen,Virtus,2,26778,Petrol,Automatic,1350705,1069000
+Hyundai,Alcazar,6,72845,Petrol,Automatic,1859768,756000
+Maruti Suzuki,Ciaz,10,140783,Petrol,Automatic,1139921,114000
+Honda,City,9,133079,Petrol,Manual,1454447,192000
+BMW,X5,4,53422,Petrol,Automatic,9982626,5562000
+Volkswagen,Vento,6,92749,Diesel,Manual,1089266,282000
+Mercedes-Benz,C-Class,7,91224,Petrol,Automatic,5919669,1970000
+Skoda,Kodiaq,6,88301,Diesel,Manual,3988145,1663000
+Honda,Civic,8,84211,Petrol,Manual,2366772,657000
+Mercedes-Benz,GLA,4,54660,Diesel,Automatic,4868566,2074000
+Volkswagen,Vento,1,14949,Petrol,Manual,1164886,933000
+Honda,Amaze,7,57757,Petrol,Automatic,872532,258000
+BMW,5 Series,3,34163,Petrol,Automatic,7511719,4547000
+Volkswagen,Polo,6,53939,CNG,Manual,807442,239000
+Audi,A4,2,28809,Diesel,Automatic,5113108,3882000
+Hyundai,Venue,9,114533,Petrol,Manual,1013778,131000
+BMW,X3,1,15353,Petrol,Automatic,7130334,6061000
+Honda,Amaze,6,59573,Diesel,Automatic,873504,336000
+Skoda,Slavia,6,83659,Petrol,Manual,1450944,530000
+Mercedes-Benz,GLA,5,49474,Petrol,Automatic,5034752,2379000
+Maruti Suzuki,Dzire,5,71350,Diesel,Manual,751780,242000
+Mercedes-Benz,S-Class,1,9687,Diesel,Automatic,17859315,14633000
+Honda,Amaze,10,134428,Petrol,Manual,889409,89000
+Mercedes-Benz,GLA,5,38837,Petrol,Automatic,5230333,2228000
+Hyundai,Grand i10 Nios,2,33511,Diesel,Automatic,699538,464000
+Volkswagen,Tiguan,7,91210,Petrol,Automatic,3664909,1276000
+Maruti Suzuki,Ciaz,3,33070,Petrol,Automatic,1101348,767000
+Tata,Altroz,4,37801,Diesel,Manual,853549,382000
+Honda,Civic,3,22254,Diesel,Manual,2279818,1460000
+Mahindra,XUV400,3,48221,Petrol,Automatic,1866243,1251000
+Tata,Nexon,4,38816,CNG,Manual,1184551,548000
+Mercedes-Benz,GLE,5,84227,Diesel,Automatic,9138509,4114000
+Honda,Amaze,1,17554,Petrol,Manual,816411,667000
+Audi,Q7,4,30151,Diesel,Automatic,9414041,5105000
+Mahindra,Scorpio,8,68794,Petrol,Manual,1963600,479000
+Maruti Suzuki,Ertiga,10,160427,Petrol,Manual,997804,100000
+Skoda,Octavia,7,105430,Diesel,Manual,2964823,1112000
+Audi,A6,9,75346,Petrol,Automatic,6815638,682000
+Tata,Tiago,5,44669,Petrol,Manual,635907,255000
+Volkswagen,Taigun,10,112917,Petrol,Manual,1404635,183000
+Hyundai,Verna,4,58472,Petrol,Automatic,1502304,847000
+Skoda,Octavia,8,84945,Diesel,Automatic,2678776,962000
+Audi,A4,9,115399,Diesel,Automatic,5103910,753000
+Volkswagen,Tiguan,7,67356,CNG,Automatic,3465212,1044000
+Volkswagen,Vento,7,56847,Petrol,Manual,1123678,360000
+Honda,City,5,49993,Petrol,Automatic,1610093,860000
+Audi,Q7,4,50164,Petrol,Automatic,8916334,4759000
+Maruti Suzuki,Ignis,10,139037,Petrol,Manual,635557,64000
+Mercedes-Benz,C-Class,1,9830,Petrol,Automatic,5787083,4919000
+Mahindra,Scorpio,10,83199,Diesel,Automatic,1854016,261000
+Mahindra,XUV300,10,94346,Diesel,Manual,1129876,159000
+Tata,Punch,7,79470,CNG,Manual,741386,152000
+Tata,Safari,1,12936,Petrol,Manual,2292556,1947000
+Mahindra,Scorpio,1,13560,Diesel,Automatic,1820772,1548000
+Maruti Suzuki,Ignis,5,60339,Petrol,Manual,627889,203000
+Hyundai,Exter,9,84984,Petrol,Manual,814423,126000
+BMW,7 Series,6,90336,Diesel,Automatic,14342813,4804000
+Mercedes-Benz,C-Class,3,25476,Diesel,Automatic,5581111,3295000
+Hyundai,i20,3,38329,Petrol,Automatic,862053,566000
+Honda,Jazz,7,88751,Petrol,Automatic,819681,194000
+BMW,X5,6,80355,Petrol,Automatic,10278534,3848000
+BMW,5 Series,9,134960,Diesel,Automatic,7538880,1390000
+Audi,Q5,6,92876,Petrol,Automatic,6493713,2279000
+Maruti Suzuki,Ciaz,5,64970,CNG,Automatic,1045186,397000
+Maruti Suzuki,Ignis,10,140734,Petrol,Manual,625184,63000
+BMW,7 Series,7,112339,Petrol,Automatic,15966747,5020000
+Audi,A4,1,16955,Petrol,Automatic,4980895,4220000
+Mercedes-Benz,C-Class,7,64792,Petrol,Automatic,5256447,1426000
+BMW,5 Series,3,34231,Petrol,Automatic,7367144,4518000
+Skoda,Kushaq,9,134215,Diesel,Automatic,1479526,251000
+Tata,Nexon,6,69513,Diesel,Automatic,1296411,547000
+Tata,Altroz,9,104295,Diesel,Automatic,872084,87000
+Hyundai,Venue,5,45110,Diesel,Automatic,999116,480000
+Honda,Jazz,7,98313,Diesel,Manual,824818,140000
+Tata,Altroz,4,63214,Diesel,Manual,788431,377000
+Volkswagen,Taigun,7,103627,Diesel,Manual,1492996,492000
+Hyundai,Creta,1,15805,Petrol,Automatic,1753156,1490000
+Tata,Altroz,7,58088,Petrol,Manual,815967,221000
+Honda,Amaze,8,63245,Petrol,Manual,846432,131000
+Maruti Suzuki,Brezza,5,58032,Petrol,Automatic,1115816,457000
+Maruti Suzuki,Dzire,2,20496,Petrol,Automatic,746791,537000
+Mercedes-Benz,S-Class,5,77844,Diesel,Automatic,16804043,7323000
+BMW,X3,6,59781,Petrol,Automatic,7273438,2690000
+Skoda,Superb,2,27050,Petrol,Automatic,3428497,2845000
+Maruti Suzuki,Ciaz,6,94314,Petrol,Automatic,1087826,375000
+Audi,Q3,6,77003,Petrol,Automatic,4826353,1721000
+Tata,Curvv,1,15389,Petrol,Automatic,1336733,1136000
+Audi,Q3,1,19877,Petrol,Automatic,4427409,3763000
+Honda,City,10,145921,Petrol,Automatic,1491014,207000
+Maruti Suzuki,Dzire,3,31563,Petrol,Automatic,811253,526000
+Skoda,Kodiaq,10,135147,Diesel,Manual,4258931,972000
+Honda,Civic,10,159526,Diesel,Manual,2097311,210000
+Volkswagen,Virtus,3,38700,Petrol,Manual,1384096,825000
+Volkswagen,Vento,4,66395,Petrol,Manual,1090323,566000
+Audi,Q5,2,27482,Petrol,Automatic,7121618,5131000
+BMW,7 Series,9,142235,Diesel,Automatic,15873496,2438000
+Hyundai,Tucson,10,133848,Petrol,Manual,3454174,788000
+BMW,X5,7,62203,Petrol,Automatic,10008861,3012000
+Mercedes-Benz,S-Class,7,60569,Diesel,Automatic,18685847,5272000
+BMW,X3,6,82982,Petrol,Automatic,7678985,3049000
+Mercedes-Benz,GLC,3,44184,Petrol,Automatic,8117437,5341000
+Mercedes-Benz,S-Class,6,52312,Petrol,Automatic,17615917,6361000
+Skoda,Octavia,8,69968,Diesel,Automatic,2827162,968000
+Maruti Suzuki,Ignis,8,78426,Diesel,Automatic,653027,65000
+Skoda,Kushaq,9,90268,Diesel,Manual,1332546,293000
+Mercedes-Benz,GLC,1,13623,Petrol,Automatic,7405321,6295000
+Honda,Amaze,1,16244,Petrol,Manual,899148,723000
+Volkswagen,Taigun,3,38173,CNG,Manual,1456762,707000
+Mercedes-Benz,E-Class,3,25121,Petrol,Automatic,8482213,4807000
+Skoda,Slavia,10,158246,Petrol,Manual,1292629,129000
+Honda,WR-V,8,75458,Diesel,Manual,924626,206000
+Skoda,Octavia,10,162459,Petrol,Manual,2991482,472000
+BMW,X3,1,5758,Petrol,Automatic,7026433,5972000
+Tata,Nexon,2,27711,Diesel,Automatic,1161302,844000
+Audi,A6,2,32286,Petrol,Automatic,7146539,5353000
+Hyundai,Grand i10 Nios,3,37179,Diesel,Manual,694256,380000
+Skoda,Octavia,6,80222,Petrol,Manual,2831671,1160000
+Hyundai,Alcazar,1,18806,Petrol,Manual,1932303,1614000
+Mahindra,Marazzo,2,27532,Diesel,Manual,1472926,1014000
+Skoda,Superb,1,14924,Diesel,Automatic,3846586,3270000
+Tata,Safari,5,80202,Petrol,Manual,2573474,1268000
+Hyundai,Aura,7,95610,Petrol,Automatic,770167,142000
+Mercedes-Benz,GLA,8,96493,Diesel,Automatic,5008540,857000
+Skoda,Kushaq,10,155882,Petrol,Manual,1331424,189000
+Maruti Suzuki,Brezza,1,18992,CNG,Manual,1052170,759000
+Audi,Q7,7,92004,Diesel,Automatic,9770373,2857000
+Tata,Harrier,5,75975,Petrol,Automatic,2264096,1036000
+Hyundai,Tucson,10,125822,Petrol,Manual,3393232,842000
+Tata,Punch,1,9124,Petrol,Automatic,806831,686000
+Honda,Amaze,3,42386,Diesel,Automatic,928572,519000
+Audi,Q5,7,58334,Petrol,Automatic,7346739,2164000
+Mercedes-Benz,GLC,10,99979,Petrol,Automatic,7668725,1189000
+Skoda,Slavia,1,9412,Petrol,Manual,1350533,1148000
+Skoda,Superb,7,84839,Diesel,Automatic,3503426,1453000
+Skoda,Kodiaq,5,66757,Petrol,Automatic,4040192,1957000
+Audi,Q7,1,18854,Petrol,Automatic,9044766,7688000
+Maruti Suzuki,WagonR,1,20926,Diesel,Manual,620361,471000
+Mahindra,Marazzo,1,14048,Diesel,Manual,1469756,1234000
+Volkswagen,Taigun,9,111400,Diesel,Automatic,1535448,363000
+BMW,7 Series,3,39646,Petrol,Automatic,15888868,9959000
+Hyundai,Tucson,5,73170,Petrol,Automatic,3348999,1784000
+Maruti Suzuki,Baleno,10,159766,Diesel,Automatic,850224,85000
+Mercedes-Benz,E-Class,9,142993,Petrol,Automatic,7450369,1482000
+Hyundai,Grand i10 Nios,6,66793,Diesel,Manual,645592,163000
+Skoda,Superb,9,130016,Diesel,Manual,3834961,752000
+Tata,Altroz,8,103188,Petrol,Manual,784632,107000
+Mercedes-Benz,GLA,8,72690,Diesel,Automatic,5072775,1145000
+Hyundai,Verna,1,8443,CNG,Automatic,1451753,1090000
+Skoda,Octavia,9,118354,Petrol,Automatic,2732179,826000
+Hyundai,Creta,6,77281,Petrol,Manual,1582789,560000
+Tata,Harrier,9,138641,Petrol,Manual,2253780,505000
+Skoda,Slavia,3,46128,Petrol,Manual,1367220,834000
+Mahindra,Bolero,3,29362,Petrol,Automatic,1066784,764000
+Maruti Suzuki,Swift,6,86547,Diesel,Manual,742112,176000
+Honda,Jazz,9,94010,CNG,Manual,880758,88000
+BMW,X3,7,110783,Petrol,Automatic,7513388,2321000
+Audi,Q3,3,45371,Petrol,Automatic,4758241,3123000
+BMW,X5,3,32569,Diesel,Automatic,10727652,6273000
+Mercedes-Benz,GLC,2,25871,Petrol,Automatic,7369377,5613000
+BMW,7 Series,9,78705,Diesel,Automatic,15856796,3277000
+Skoda,Octavia,3,35743,Petrol,Automatic,2815376,1933000
+Mahindra,XUV700,5,63558,Petrol,Automatic,2380427,1270000
+Honda,Civic,9,93699,Petrol,Manual,2149527,460000
+Maruti Suzuki,Dzire,8,85132,Diesel,Manual,774656,121000
+Maruti Suzuki,Swift,2,26478,Petrol,Automatic,687624,519000
+Tata,Safari,3,46264,Diesel,Automatic,2352126,1562000
+Audi,Q7,2,21783,Petrol,Automatic,9887218,7123000
+Hyundai,Exter,8,97875,Petrol,Automatic,802696,169000
+Mahindra,XUV300,6,75039,Petrol,Manual,1168465,452000
+Hyundai,Venue,6,83136,Diesel,Manual,1069109,365000
+Honda,WR-V,9,92689,Diesel,Automatic,1040571,210000
+BMW,X5,8,103272,Petrol,Automatic,10152716,2492000
+Maruti Suzuki,Baleno,4,57443,Petrol,Manual,835581,388000
+Honda,Civic,4,56134,Petrol,Automatic,2374529,1325000
+BMW,X3,9,123846,Petrol,Automatic,7429867,1247000
+Maruti Suzuki,Grand Vitara,1,11567,Petrol,Manual,1417004,1183000
+BMW,5 Series,2,21933,Diesel,Automatic,7351455,5122000
+Audi,Q3,2,30388,Diesel,Automatic,4653764,3324000
+Mahindra,Marazzo,6,91673,Petrol,Manual,1525287,585000
+Mercedes-Benz,GLA,4,57879,Petrol,Automatic,4807342,2554000
+Honda,Jazz,10,111231,Diesel,Automatic,930344,93000
+Honda,City,3,31926,Diesel,Manual,1629811,1045000
+Volkswagen,Polo,3,43803,Petrol,Manual,835662,519000
+Skoda,Slavia,3,37370,Petrol,Manual,1399913,876000
+Audi,Q5,6,66567,Petrol,Automatic,6837491,2665000
+Audi,A4,8,70355,Petrol,Automatic,4573203,1188000
+Hyundai,Grand i10 Nios,7,77298,Petrol,Automatic,629943,102000
+BMW,5 Series,4,50199,Petrol,Automatic,7654569,4447000
+Skoda,Kushaq,4,53602,Diesel,Automatic,1429023,743000
+Mahindra,XUV400,10,154057,Petrol,Automatic,1653208,242000
+Mahindra,XUV400,2,31690,Petrol,Automatic,1682310,1367000
+Audi,Q7,1,10664,Petrol,Automatic,9829579,8355000
+Mahindra,Thar,9,81234,Diesel,Manual,1608111,357000
+Volkswagen,Tiguan,2,19697,Diesel,Automatic,3801533,3063000
+Honda,Civic,8,99017,Petrol,Manual,2190529,528000
+Tata,Tiago,9,88330,Petrol,Manual,618889,62000
+Mercedes-Benz,C-Class,4,61371,Diesel,Automatic,5241893,2699000
+Hyundai,Grand i10 Nios,8,109518,Petrol,Automatic,668382,67000
+BMW,7 Series,9,144177,Petrol,Automatic,15683119,2999000
+Mercedes-Benz,E-Class,10,106144,Petrol,Automatic,7684136,1578000
+BMW,7 Series,10,114065,Petrol,Automatic,15552608,3275000
+Maruti Suzuki,Brezza,5,66687,Petrol,Automatic,1151782,525000
+Mercedes-Benz,GLC,7,93569,Diesel,Automatic,7897746,2044000
+Tata,Punch,10,121270,Diesel,Automatic,799845,80000
+Audi,A4,4,44475,Petrol,Automatic,4784164,2494000
+Volkswagen,Polo,1,10831,Diesel,Automatic,828133,704000
+Honda,Amaze,3,40013,Petrol,Manual,932651,559000
+Honda,Civic,5,49333,Petrol,Manual,2386387,1109000
+Volkswagen,Vento,3,24442,Diesel,Manual,1202189,774000
+Skoda,Slavia,7,94749,Diesel,Manual,1360692,377000
+Maruti Suzuki,Ertiga,9,136582,Petrol,Manual,1121441,126000
+BMW,5 Series,6,99657,Petrol,Automatic,7509489,2488000
+Tata,Tigor,10,117739,Diesel,Automatic,673687,67000
+Mahindra,Thar,1,9967,Diesel,Automatic,1717755,1460000
+Mercedes-Benz,GLC,7,94911,Diesel,Automatic,7886738,2313000
+Maruti Suzuki,Ciaz,3,36308,Petrol,Automatic,1077821,698000
+Mercedes-Benz,GLE,5,74452,Petrol,Automatic,9138627,4072000
+Tata,Punch,10,162117,Petrol,Automatic,806664,81000
+Hyundai,Tucson,4,57782,Petrol,Manual,3077872,1788000
+Hyundai,i20,10,118378,Diesel,Automatic,867332,87000
+Maruti Suzuki,Ertiga,5,42661,Petrol,Manual,1064816,496000
+Audi,Q3,5,72166,Petrol,Automatic,4463010,1964000
+Tata,Punch,6,85336,Diesel,Manual,815287,204000
+Tata,Altroz,10,125889,Petrol,Manual,816434,82000
+Volkswagen,Taigun,10,91969,Petrol,Manual,1449521,248000
+Audi,Q3,6,97392,Diesel,Automatic,5010393,1491000
+BMW,5 Series,8,83743,Diesel,Automatic,7412684,1292000
+BMW,5 Series,8,95137,Diesel,Automatic,7221878,1281000
+Mahindra,Thar,9,79737,Petrol,Automatic,1711317,309000
+Honda,City,8,123727,Diesel,Automatic,1524641,351000
+Hyundai,Exter,2,19878,Diesel,Automatic,748327,546000
+BMW,7 Series,10,151281,Petrol,Automatic,15877266,2696000
+Audi,A4,1,18900,Petrol,Automatic,5137156,4367000
+Tata,Tiago,10,99854,Diesel,Manual,641254,64000
+BMW,X3,2,26441,Petrol,Automatic,7676558,5832000
+Tata,Harrier,2,24863,Diesel,Automatic,2349600,1809000
+BMW,7 Series,3,23743,Petrol,Automatic,15982350,10045000
+Hyundai,Verna,10,90634,Petrol,Automatic,1510071,279000
+Mercedes-Benz,C-Class,7,109532,Petrol,Automatic,5225152,1644000
+BMW,X3,2,31108,Diesel,Automatic,7030552,4568000
+Audi,Q7,1,6471,Petrol,Automatic,9545764,8114000
+BMW,5 Series,6,80927,Petrol,Automatic,7487696,2828000
+Honda,Amaze,9,109729,Diesel,Automatic,830140,94000
+Hyundai,Verna,3,43450,Diesel,Automatic,1393783,905000
+Audi,Q5,6,61817,Diesel,Automatic,6803528,2281000
+Volkswagen,Taigun,3,34007,Petrol,Manual,1449243,1007000
+Audi,Q5,1,11059,Petrol,Automatic,7308230,6212000
+Honda,Civic,5,47579,CNG,Manual,2397722,1005000
+Mercedes-Benz,C-Class,10,122160,Diesel,Automatic,5843826,1050000
+Hyundai,Tucson,4,54930,Petrol,Automatic,3444616,2134000
+Volkswagen,Polo,7,110109,Petrol,Automatic,816411,167000
+Honda,Civic,6,61052,Diesel,Automatic,2218625,1007000
+Honda,Amaze,10,137457,Petrol,Automatic,857570,86000
+Maruti Suzuki,Ignis,7,108408,Diesel,Manual,677563,114000
+Hyundai,Alcazar,5,85077,Petrol,Manual,1743543,638000
+Audi,Q7,4,32881,Petrol,Automatic,9332317,4308000
+Tata,Harrier,7,66224,Diesel,Manual,2309493,745000
+Mercedes-Benz,C-Class,7,85778,Petrol,Automatic,5587099,1513000
+Tata,Tiago,6,94087,Petrol,Manual,655785,142000
+Audi,Q7,8,100807,Petrol,Automatic,9371087,2076000
+Audi,Q5,4,37976,Petrol,Automatic,6684399,3453000
+Hyundai,Grand i10 Nios,10,146284,Diesel,Automatic,664223,66000
+Audi,Q5,5,69095,Diesel,Automatic,7148912,3346000
+Maruti Suzuki,Swift,4,48960,Diesel,Automatic,698981,320000
+Volkswagen,Taigun,1,12843,Petrol,Manual,1346724,1094000
+Audi,Q3,8,129640,Petrol,Automatic,4772570,1167000
+Tata,Punch,1,17398,Petrol,Automatic,819135,696000
+Audi,Q7,5,47307,Diesel,Automatic,9204847,3805000
+Maruti Suzuki,Baleno,6,52247,Diesel,Automatic,923028,323000
+BMW,X1,6,92985,Diesel,Automatic,5161216,1789000
+BMW,3 Series,5,72587,Petrol,Automatic,5054981,1894000
+Honda,WR-V,3,44588,Petrol,Manual,1003414,519000
+Mercedes-Benz,GLA,5,64869,Petrol,Automatic,4873535,2226000
+Mahindra,Thar,8,126991,Petrol,Manual,1580059,351000
+Volkswagen,Polo,2,33816,Petrol,Automatic,842432,654000
+Skoda,Octavia,6,78182,Diesel,Automatic,2971917,1374000
+Honda,Amaze,9,113835,Petrol,Automatic,830436,83000
+Mercedes-Benz,S-Class,8,74100,Petrol,Automatic,18481833,4748000
+BMW,7 Series,8,97281,Petrol,Automatic,15940081,4244000
+Tata,Tigor,8,115811,Diesel,Automatic,763004,76000
+Skoda,Superb,7,101689,Diesel,Automatic,3591219,1274000
+Mercedes-Benz,GLE,8,84190,Diesel,Automatic,10363552,2393000
+Mercedes-Benz,S-Class,6,93278,Diesel,Automatic,17089720,6494000
+Honda,Elevate,2,25140,Petrol,Automatic,1341333,1043000
+Skoda,Octavia,2,20238,Diesel,Automatic,2980447,2365000
+Hyundai,Grand i10 Nios,8,82073,Petrol,Automatic,686092,112000
+Mahindra,XUV700,1,8333,Petrol,Manual,2495247,2109000
+Hyundai,Aura,6,72676,Diesel,Automatic,818787,261000
+Skoda,Kushaq,6,64189,Diesel,Manual,1336754,423000
+Hyundai,Alcazar,4,62201,Petrol,Manual,1878641,1037000
+Maruti Suzuki,Dzire,10,155845,Petrol,Manual,759393,76000
+BMW,7 Series,3,27923,Petrol,Automatic,15510471,10213000
+Maruti Suzuki,Ignis,3,40478,Petrol,Manual,659358,358000
+Audi,Q3,1,15477,Petrol,Automatic,5036578,4281000
+Hyundai,Verna,3,41048,Petrol,Manual,1456862,931000
+Audi,Q3,4,36394,Petrol,Automatic,4886973,2440000
+Tata,Altroz,5,79675,Diesel,Automatic,872361,272000
+Volkswagen,Polo,3,38154,Petrol,Automatic,830991,514000
+Tata,Nexon,6,58645,Petrol,Manual,1142171,434000
+Skoda,Superb,5,65844,Petrol,Manual,3438517,1806000
+Mercedes-Benz,GLC,3,34077,Diesel,Automatic,7915130,5113000
+BMW,X5,6,69339,Petrol,Automatic,9720255,3524000
+Hyundai,Exter,6,90412,Petrol,Manual,777680,212000
+Honda,WR-V,8,115054,Petrol,Automatic,931324,162000
