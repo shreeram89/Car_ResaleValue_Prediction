@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Resale Price Valuation Tool - Flask Web App</title>
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚗</text></svg>">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <!-- Header Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm main-nav">
+        <div class="container-xl">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+                <span class="brand-icon">🚗</span>
+                <span class="brand-name">Car<span class="text-accent">Valuation</span></span>
+            </a>
+            <div class="d-flex align-items-center gap-2">
+                <span class="badge bg-secondary-subtle text-light border border-secondary px-3 py-2 d-none d-md-inline-block">
+                    <i class="bi bi-cpu-fill text-warning me-1"></i> Random Forest (R²: 94.4%)
+                </span>
+                <button type="button" class="btn btn-outline-light btn-sm px-3" data-bs-toggle="modal" data-bs-target="#metricsModal">
+                    <i class="bi bi-bar-chart-line-fill me-1"></i> Model Metrics
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <main class="container-xl my-4 my-md-5">
+        
+        <!-- Hero Header -->
+        <div class="text-center mb-4 pb-2">
+            <div class="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill bg-warning-subtle text-warning-emphasis mb-2 fw-semibold fs-7 border border-warning-subtle">
+                <i class="bi bi-stars"></i> Flask AI/ML Powered Engine
+            </div>
+            <h1 class="main-title">Used Car Resale Price Valuation Tool</h1>
+            <p class="subtitle text-secondary mx-auto">
+                Accurate Indian secondary car market valuation powered by an authentic 8,000+ car listing Random Forest model.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Sidebar Card: Academic & Algorithm Performance -->
+            <div class="col-lg-3 col-md-4">
+                <div class="card border-0 shadow-sm rounded-4 h-100 sidebar-card">
+                    <div class="card-body p-4 d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 mb-3">
+                            <div class="stat-icon-badge bg-primary text-white">
+                                <i class="bi bi-mortarboard-fill"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0 fw-bold">Project Overview</h6>
+                                <small class="text-muted">AIML College Project</small>
+                            </div>
+                        </div>
+
+                        <p class="small text-secondary mb-3">
+                            Trained on <strong>8,110 authentic CarDekho listings</strong> with Scikit-Learn's Random Forest ensemble regression.
+                        </p>
+
+                        <div class="p-3 bg-light rounded-3 mb-3 border">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <span class="small text-muted">Primary Algorithm</span>
+                                <span class="badge bg-success-subtle text-success fw-bold">Recommended</span>
+                            </div>
+                            <div class="fw-bold text-dark">Random Forest Regressor</div>
+                            <hr class="my-2 text-muted">
+                            <div class="d-flex justify-content-between small mb-1">
+                                <span class="text-muted">Accuracy (R²):</span>
+                                <span class="fw-bold text-success">{{ "%.1f"|format(rf_metrics.get('r2_score', 0.9439) * 100) }}%</span>
+                            </div>
+                            <div class="d-flex justify-content-between small mb-1">
+                                <span class="text-muted">Mean Error (MAE):</span>
+                                <span class="fw-bold text-dark">₹ {{ "{:,.0f}".format(rf_metrics.get('mae', 75058)) }}</span>
+                            </div>
+                            <div class="d-flex justify-content-between small">
+                                <span class="text-muted">Avg % Error (MAPE):</span>
+                                <span class="fw-bold text-dark">{{ "%.1f"|format(rf_metrics.get('mape', 15.88)) }}%</span>
+                            </div>
+                        </div>
+
+                        <!-- Comparison accordion -->
+                        <div class="accordion accordion-flush mt-auto" id="baselineAccordion">
+                            <div class="accordion-item bg-transparent border rounded-3 overflow-hidden">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed py-2 px-3 small fw-semibold bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBaseline">
+                                        <i class="bi bi-arrow-left-right me-2 text-primary"></i> Compare with Baseline
+                                    </button>
+                                </h2>
+                                <div id="collapseBaseline" class="accordion-collapse collapse" data-bs-parent="#baselineAccordion">
+                                    <div class="accordion-body p-3 small text-secondary bg-white">
+                                        <div class="fw-bold text-dark mb-1">Linear Regression</div>
+                                        <div class="d-flex justify-content-between mb-1">
+                                            <span>R² Score:</span>
+                                            <span class="fw-semibold">{{ "%.1f"|format(lr_metrics.get('r2_score', 0.8894) * 100) }}%</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span>Mean Error:</span>
+                                            <span class="fw-semibold">₹ {{ "{:,.0f}".format(lr_metrics.get('mae', 136774)) }}</span>
+                                        </div>
+                                        <div class="alert alert-info py-2 px-2 small mb-0 lh-sm">
+                                            <i class="bi bi-info-circle-fill me-1"></i> Random Forest delivers <strong>~46% lower prediction error</strong> than standard Linear Regression.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Form & Valuation Results Section -->
+            <div class="col-lg-9 col-md-8">
+                
+                <!-- Main Form Card -->
+                <div class="card border-0 shadow-sm rounded-4 mb-4">
+                    <div class="card-body p-4 p-md-4">
+                        <form id="valuationForm" action="/predict" method="POST">
+                            
+                            <!-- 3 Column Form Layout -->
+                            <div class="row g-4">
+                                
+                                <!-- Column 1: Vehicle Identity -->
+                                <div class="col-lg-4 col-md-12">
+                                    <div class="form-section-header mb-3">
+                                        <span class="step-num">1</span>
+                                        <h5 class="mb-0 fw-bold">Vehicle Identity</h5>
+                                    </div>
+
+                                    <!-- Car Brand -->
+                                    <div class="mb-3">
+                                        <label for="brandSelect" class="form-label fw-semibold small text-secondary">
+                                            Car Brand (Make) <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <span class="input-group-text bg-light"><i class="bi bi-tag-fill text-muted"></i></span>
+                                            <select class="form-select form-select-custom" id="brandSelect" name="brand" required>
+                                                {% for b in brands %}
+                                                <option value="{{ b }}" {% if b == default_brand %}selected{% endif %}>{{ b }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <!-- Car Model -->
+                                    <div class="mb-3">
+                                        <label for="modelSelect" class="form-label fw-semibold small text-secondary">
+                                            Car Model <span class="text-danger">*</span>
+                                            <span id="modelLoadingSpinner" class="spinner-border spinner-border-sm text-primary ms-1 d-none" role="status"></span>
+                                        </label>
+                                        <div class="input-group">
+                                            <span class="input-group-text bg-light"><i class="bi bi-car-front-fill text-muted"></i></span>
+                                            <select class="form-select form-select-custom" id="modelSelect" name="model" required>
+                                                {% for m in models %}
+                                                <option value="{{ m }}" {% if m == default_model %}selected{% endif %}>{{ m }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <!-- Year of Manufacture -->
+                                    <div class="mb-3">
+                                        <label for="yearSelect" class="form-label fw-semibold small text-secondary">
+                                            Year of Manufacture <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <span class="input-group-text bg-light"><i class="bi bi-calendar3 text-muted"></i></span>
+                                            <select class="form-select form-select-custom" id="yearSelect" name="year" required>
+                                                {% for yr in years %}
+                                                <option value="{{ yr }}" {% if yr == default_year %}selected{% endif %}>{{ yr }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <!-- City of Sale -->
+                                    <div class="mb-3">
+                                        <label for="citySelect" class="form-label fw-semibold small text-secondary">
+                                            City of Sale <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <span class="input-group-text bg-light"><i class="bi bi-geo-alt-fill text-muted"></i></span>
+                                            <select class="form-select form-select-custom" id="citySelect" name="city" required>
+                                                {% for c in cities %}
+                                                <option value="{{ c }}" {% if c == default_city %}selected{% endif %}>{{ c }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- Column 2: Usage & History -->
+                                <div class="col-lg-4 col-md-12">
+                                    <div class="form-section-header mb-3">
+                                        <span class="step-num">2</span>
+                                        <h5 class="mb-0 fw-bold">Usage & History</h5>
+                                    </div>
+
+                                    <!-- Kilometers Driven -->
+                                    <div class="mb-3">
+                                        <label for="kmInput" class="form-label fw-semibold small text-secondary">
+                                            Kilometers Driven <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <span class="input-group-text bg-light"><i class="bi bi-speedometer2 text-muted"></i></span>
+                                            <input type="number" class="form-control" id="kmInput" name="km_driven" value="{{ default_km }}" min="500" max="300000" step="1000" required>
+                                        </div>
+                                        <div class="d-flex gap-1 mt-1">
+                                            <button type="button" class="btn btn-xs btn-outline-secondary km-preset" data-km="25000">25k</button>
+                                            <button type="button" class="btn btn-xs btn-outline-secondary km-preset" data-km="45000">45k</button>
+                                            <button type="button" class="btn btn-xs btn-outline-secondary km-preset" data-km="75000">75k</button>
+                                            <button type="button" class="btn btn-xs btn-outline-secondary km-preset" data-km="120000">120k</button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Ownership Type -->
+                                    <div class="mb-3">
+                                        <label for="ownerSelect" class="form-label fw-semibold small text-secondary">
+                                            Ownership Type <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <span class="input-group-text bg-light"><i class="bi bi-person-badge-fill text-muted"></i></span>
+                                            <select class="form-select form-select-custom" id="ownerSelect" name="owner" required>
+                                                {% for o in owners %}
+                                                <option value="{{ o }}" {% if o == default_owner %}selected{% endif %}>{{ o }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <!-- Condition -->
+                                    <div class="mb-3">
+                                        <label class="form-label fw-semibold small text-secondary">
+                                            Physical & Mechanical Condition <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="condition-picker d-flex gap-2">
+                                            {% for cond in conditions %}
+                                            <div class="flex-fill">
+                                                <input type="radio" class="btn-check" name="condition" id="cond_{{ cond }}" value="{{ cond }}" {% if cond == default_condition %}checked{% endif %}>
+                                                <label class="btn btn-outline-primary w-100 py-2 small fw-semibold text-center" for="cond_{{ cond }}">
+                                                    {% if cond == 'Excellent' %}🌟 Excellent
+                                                    {% elif cond == 'Good' %}👍 Good
+                                                    {% else %}🔧 Fair
+                                                    {% endif %}
+                                                </label>
+                                            </div>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+
+                                    <!-- Seller Type -->
+                                    <div class="mb-3">
+                                        <label for="sellerSelect" class="form-label fw-semibold small text-secondary">
+                                            Seller Category <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <span class="input-group-text bg-light"><i class="bi bi-shop text-muted"></i></span>
+                                            <select class="form-select form-select-custom" id="sellerSelect" name="seller_type" required>
+                                                {% for s in seller_types %}
+                                                <option value="{{ s }}" {% if s == default_seller %}selected{% endif %}>{{ s }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- Column 3: Technical Specs -->
+                                <div class="col-lg-4 col-md-12">
+                                    <div class="form-section-header mb-3">
+                                        <span class="step-num">3</span>
+                                        <h5 class="mb-0 fw-bold">Technical Specs</h5>
+                                    </div>
+
+                                    <!-- Fuel Type -->
+                                    <div class="mb-3">
+                                        <label for="fuelSelect" class="form-label fw-semibold small text-secondary">
+                                            Fuel Type <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <span class="input-group-text bg-light"><i class="bi bi-fuel-pump-fill text-muted"></i></span>
+                                            <select class="form-select form-select-custom" id="fuelSelect" name="fuel" required>
+                                                {% for f in fuels %}
+                                                <option value="{{ f }}" {% if f == default_fuel %}selected{% endif %}>{{ f }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <!-- Transmission -->
+                                    <div class="mb-3">
+                                        <label class="form-label fw-semibold small text-secondary">
+                                            Transmission <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="d-flex gap-2">
+                                            {% for t in transmissions %}
+                                            <div class="flex-fill">
+                                                <input type="radio" class="btn-check" name="transmission" id="trans_{{ t }}" value="{{ t }}" {% if t == default_transmission %}checked{% endif %}>
+                                                <label class="btn btn-outline-secondary w-100 py-2 small fw-semibold" for="trans_{{ t }}">
+                                                    {% if t == 'Manual' %}🕹️ Manual{% else %}⚡ Automatic{% endif %}
+                                                </label>
+                                            </div>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+
+                                    <!-- Engine Specs Accordion / Fine Tuning -->
+                                    <div class="accordion border rounded-3 overflow-hidden" id="specsAccordion">
+                                        <div class="accordion-item border-0">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed py-2 px-3 small fw-semibold bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpecs">
+                                                    <i class="bi bi-sliders me-2 text-primary"></i> View / Fine-Tune Engine Specs
+                                                </button>
+                                            </h2>
+                                            <div id="collapseSpecs" class="accordion-collapse collapse" data-bs-parent="#specsAccordion">
+                                                <div class="accordion-body p-3 bg-white">
+                                                    
+                                                    <div class="mb-2">
+                                                        <label for="mileageInput" class="form-label small text-muted mb-1">Mileage (kmpl)</label>
+                                                        <input type="number" step="0.1" class="form-control form-control-sm" id="mileageInput" name="mileage_kmpl" value="{{ default_specs.mileage_kmpl }}" required>
+                                                    </div>
+
+                                                    <div class="mb-2">
+                                                        <label for="engineInput" class="form-label small text-muted mb-1">Engine Displacement (CC)</label>
+                                                        <input type="number" step="1" class="form-control form-control-sm" id="engineInput" name="engine_cc" value="{{ default_specs.engine_cc }}" required>
+                                                    </div>
+
+                                                    <div class="mb-2">
+                                                        <label for="powerInput" class="form-label small text-muted mb-1">Max Power (BHP)</label>
+                                                        <input type="number" step="0.1" class="form-control form-control-sm" id="powerInput" name="max_power_bhp" value="{{ default_specs.max_power_bhp }}" required>
+                                                    </div>
+
+                                                    <div>
+                                                        <label for="seatsSelect" class="form-label small text-muted mb-1">Seating Capacity</label>
+                                                        <select class="form-select form-select-sm" id="seatsSelect" name="seats">
+                                                            {% for seat in [4, 5, 6, 7, 8] %}
+                                                            <option value="{{ seat }}" {% if seat == default_specs.seats %}selected{% endif %}>{{ seat }} Seats</option>
+                                                            {% endfor %}
+                                                        </select>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <hr class="my-4 text-muted">
+
+                            <!-- Submit Action Button -->
+                            <div class="d-flex flex-column flex-sm-row gap-2 justify-content-between align-items-center">
+                                <button type="reset" class="btn btn-outline-secondary btn-sm px-4 rounded-pill" id="resetBtn">
+                                    <i class="bi bi-arrow-counterclockwise me-1"></i> Reset
+                                </button>
+                                <button type="submit" class="btn btn-accent btn-lg px-5 rounded-pill shadow-sm w-100 w-sm-auto" id="predictBtn">
+                                    <span id="btnIcon"><i class="bi bi-calculator-fill me-2"></i></span>
+                                    <span id="btnText">Calculate Estimated Resale Value</span>
+                                    <span id="btnSpinner" class="spinner-border spinner-border-sm ms-2 d-none" role="status"></span>
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Valuation Result Section (Populated dynamically or server-rendered) -->
+                <div id="resultContainer" class="{% if not result %}d-none{% endif %}">
+                    
+                    <!-- Gradient Valuation Card -->
+                    <div class="card border-0 rounded-4 shadow-lg valuation-banner text-white mb-4">
+                        <div class="card-body p-4 p-md-5 text-center">
+                            <span class="badge bg-white bg-opacity-20 text-uppercase tracking-wider px-3 py-2 rounded-pill small mb-3">
+                                <i class="bi bi-shield-check me-1"></i> AI Estimated Fair Resale Value
+                            </span>
+                            <div class="valuation-price display-3 fw-black text-warning my-2" id="valPrice">
+                                {{ result.formatted_price if result else '₹ 0.00 Lakh' }}
+                            </div>
+                            <div class="fs-5 opacity-90 mb-2">
+                                Estimated Fair Market Range: <strong id="valRange" class="text-white">{{ result.formatted_range if result else '' }}</strong>
+                            </div>
+                            <div class="small opacity-75" id="valSubtitle">
+                                (Accurate estimate for {{ result.brand if result else '' }} {{ result.model if result else '' }} in {{ result.city if result else '' }})
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4 Vehicle Summary Cards -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-6 col-md-3">
+                            <div class="card border-0 shadow-sm rounded-3 h-100 summary-card text-center p-3">
+                                <div class="text-muted small text-uppercase fw-semibold mb-1">Vehicle Age</div>
+                                <div class="h5 fw-bold mb-0 text-dark" id="sumAge">{{ result.car_age if result else '' }} Years</div>
+                                <small class="text-secondary" id="sumYear">Mfg. {{ result.manufactured_year if result else '' }}</small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card border-0 shadow-sm rounded-3 h-100 summary-card text-center p-3">
+                                <div class="text-muted small text-uppercase fw-semibold mb-1">Avg. Yearly Usage</div>
+                                <div class="h5 fw-bold mb-0 text-dark" id="sumUsage">{{ "{:,.0f}".format(result.avg_yearly_km) if result else '' }} km/yr</div>
+                                <small class="text-primary fw-semibold" id="sumUsageStatus">{{ result.usage_status if result else '' }}</small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card border-0 shadow-sm rounded-3 h-100 summary-card text-center p-3">
+                                <div class="text-muted small text-uppercase fw-semibold mb-1">Fuel & Transmission</div>
+                                <div class="h5 fw-bold mb-0 text-dark" id="sumFuelTrans">{{ result.fuel if result else '' }}</div>
+                                <small class="text-secondary" id="sumTrans">{{ result.transmission if result else '' }}</small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card border-0 shadow-sm rounded-3 h-100 summary-card text-center p-3">
+                                <div class="text-muted small text-uppercase fw-semibold mb-1">Condition & Owner</div>
+                                <div class="h5 fw-bold mb-0 text-dark" id="sumCondition">{{ result.condition if result else '' }}</div>
+                                <small class="text-secondary" id="sumOwner">{{ result.owner if result else '' }}</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Key Valuation Insights -->
+                    <div class="card border-0 shadow-sm rounded-4 mb-4">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold mb-3 d-flex align-items-center gap-2">
+                                <i class="bi bi-lightbulb-fill text-warning"></i> Key Valuation Insights & Breakdown
+                            </h5>
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <div class="p-3 bg-light rounded-3 h-100 border">
+                                        <h6 class="fw-bold text-dark mb-2">Market & Depreciation Analysis</h6>
+                                        <ul class="list-unstyled mb-0 small text-secondary d-flex flex-column gap-2">
+                                            <li class="d-flex align-items-start gap-2">
+                                                <i class="bi bi-check-circle-fill text-success mt-1"></i>
+                                                <span id="insightBrand">{{ result.insights.brand_retention if result else '' }}</span>
+                                            </li>
+                                            <li class="d-flex align-items-start gap-2">
+                                                <i class="bi bi-check-circle-fill text-success mt-1"></i>
+                                                <span id="insightOwner">{{ result.insights.ownership_impact if result else '' }}</span>
+                                            </li>
+                                            <li class="d-flex align-items-start gap-2">
+                                                <i class="bi bi-check-circle-fill text-success mt-1"></i>
+                                                <span id="insightUsage">{{ result.insights.usage_level if result else '' }}</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="p-3 bg-light rounded-3 h-100 border">
+                                        <h6 class="fw-bold text-dark mb-2">How to Maximize Your Resale Value</h6>
+                                        <ul class="list-unstyled mb-0 small text-secondary d-flex flex-column gap-2">
+                                            <li class="d-flex align-items-start gap-2">
+                                                <i class="bi bi-wrench-adjustable-circle-fill text-primary mt-1"></i>
+                                                <span>Keep OEM service book records, receipts, and insurance claims verified.</span>
+                                            </li>
+                                            <li class="d-flex align-items-start gap-2">
+                                                <i class="bi bi-stars text-primary mt-1"></i>
+                                                <span>Detail the interior upholstery and buff out minor clear-coat scratches.</span>
+                                            </li>
+                                            <li class="d-flex align-items-start gap-2">
+                                                <i class="bi bi-circle-square text-primary mt-1"></i>
+                                                <span>Verify tire tread depth and brake pads before physical car evaluation.</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Model Metrics & Academic Details Modal -->
+    <div class="modal fade" id="metricsModal" tabindex="-1" aria-labelledby="metricsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content rounded-4 border-0 shadow-lg">
+                <div class="modal-header bg-dark text-white rounded-top-4">
+                    <h5 class="modal-title fw-bold" id="metricsModalLabel">
+                        <i class="bi bi-mortarboard-fill text-warning me-2"></i> Machine Learning Model Performance
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="row g-3 mb-4 text-center">
+                        <div class="col-6 col-md-3">
+                            <div class="p-3 rounded-3 bg-light border">
+                                <div class="small text-muted mb-1">R² Score</div>
+                                <div class="h4 fw-bold text-success mb-0">{{ "%.2f"|format(rf_metrics.get('r2_score', 0.9439) * 100) }}%</div>
+                                <small class="text-muted">Variance Explained</small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="p-3 rounded-3 bg-light border">
+                                <div class="small text-muted mb-1">MAE</div>
+                                <div class="h4 fw-bold text-dark mb-0">₹ {{ "{:,.0f}".format(rf_metrics.get('mae', 75058)) }}</div>
+                                <small class="text-muted">Mean Absolute Error</small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="p-3 rounded-3 bg-light border">
+                                <div class="small text-muted mb-1">RMSE</div>
+                                <div class="h4 fw-bold text-dark mb-0">₹ {{ "{:,.0f}".format(rf_metrics.get('rmse', 208831)) }}</div>
+                                <small class="text-muted">Root Mean Sq. Error</small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="p-3 rounded-3 bg-light border">
+                                <div class="small text-muted mb-1">MAPE</div>
+                                <div class="h4 fw-bold text-primary mb-0">{{ "%.1f"|format(rf_metrics.get('mape', 15.88)) }}%</div>
+                                <small class="text-muted">Avg Percentage Error</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h6 class="fw-bold mb-2">Model Comparison Summary</h6>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover align-middle small text-center mb-0">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Model</th>
+                                    <th>R² Score</th>
+                                    <th>MAE</th>
+                                    <th>RMSE</th>
+                                    <th>MAPE</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-start fw-semibold">Linear Regression (Baseline)</td>
+                                    <td>{{ "%.2f"|format(lr_metrics.get('r2_score', 0.8894) * 100) }}%</td>
+                                    <td>₹ {{ "{:,.2f}".format(lr_metrics.get('mae', 136774)) }}</td>
+                                    <td>₹ {{ "{:,.2f}".format(lr_metrics.get('rmse', 293177)) }}</td>
+                                    <td>{{ "%.2f"|format(lr_metrics.get('mape', 32.69)) }}%</td>
+                                </tr>
+                                <tr class="table-success">
+                                    <td class="text-start fw-bold">Random Forest Regressor (Core)</td>
+                                    <td class="fw-bold text-success">{{ "%.2f"|format(rf_metrics.get('r2_score', 0.9439) * 100) }}%</td>
+                                    <td class="fw-bold">₹ {{ "{:,.2f}".format(rf_metrics.get('mae', 75058)) }}</td>
+                                    <td class="fw-bold">₹ {{ "{:,.2f}".format(rf_metrics.get('rmse', 208831)) }}</td>
+                                    <td class="fw-bold">{{ "%.2f"|format(rf_metrics.get('mape', 15.88)) }}%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white-50 py-4 mt-5">
+        <div class="container-xl text-center small">
+            <p class="mb-1 text-white fw-semibold">CarDekho Resale Price Valuation Tool • Flask Edition</p>
+            <p class="mb-0 text-white-50">Powered by Machine Learning (Scikit-Learn, Random Forest, Flask & Bootstrap 5)</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Application Script -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

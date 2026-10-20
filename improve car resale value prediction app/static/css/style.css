@@ -1,0 +1,169 @@
+:root {
+    --primary-color: #ff5a1f;
+    --primary-hover: #e04b16;
+    --dark-bg: #121820;
+    --card-bg: #ffffff;
+    --text-primary: #1e293b;
+    --text-secondary: #64748b;
+    --border-color: #e2e8f0;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #f4f6fa;
+    color: var(--text-primary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar */
+.main-nav {
+    background-color: var(--dark-bg) !important;
+}
+
+.brand-icon {
+    font-size: 1.5rem;
+}
+
+.brand-name {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    font-size: 1.35rem;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+}
+
+.text-accent {
+    color: var(--primary-color);
+}
+
+/* Header */
+.main-title {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    font-size: 2.3rem;
+    color: #1e293b;
+    letter-spacing: -0.5px;
+}
+
+.subtitle {
+    max-width: 680px;
+    font-size: 1.05rem;
+}
+
+/* Sidebar & Cards */
+.sidebar-card {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+}
+
+.stat-icon-badge {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+/* Form Styles */
+.form-section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.step-num {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.form-select-custom, .form-control {
+    border-color: var(--border-color);
+    padding: 0.55rem 0.85rem;
+    font-size: 0.95rem;
+    border-radius: 8px;
+}
+
+.form-select-custom:focus, .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(255, 90, 31, 0.15);
+}
+
+.input-group-text {
+    border-color: var(--border-color);
+}
+
+.btn-xs {
+    padding: 0.15rem 0.5rem;
+    font-size: 0.75rem;
+    border-radius: 4px;
+}
+
+/* Accent Buttons */
+.btn-accent {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    font-weight: 700;
+    font-size: 1.05rem;
+    transition: all 0.2s ease;
+}
+
+.btn-accent:hover, .btn-accent:focus {
+    background-color: var(--primary-hover);
+    color: #ffffff;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(255, 90, 31, 0.3) !important;
+}
+
+.btn-accent:active {
+    transform: translateY(0);
+}
+
+/* Valuation Result Banner */
+.valuation-banner {
+    background: linear-gradient(135deg, #0d1b2a 0%, #1b263b 60%, #2a4365 100%);
+    box-shadow: 0 10px 30px rgba(13, 27, 42, 0.25);
+}
+
+.valuation-price {
+    font-family: 'Outfit', sans-serif;
+    color: #ffd166 !important;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tracking-wider {
+    letter-spacing: 1.5px;
+}
+
+/* Summary Cards */
+.summary-card {
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.summary-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+/* Utilities */
+.fs-7 {
+    font-size: 0.85rem;
+}
+
+.fw-black {
+    font-weight: 900;
+}

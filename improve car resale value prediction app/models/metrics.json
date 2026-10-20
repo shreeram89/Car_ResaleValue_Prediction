@@ -1,0 +1,99 @@
+{
+    "best_model": "Random Forest Regressor",
+    "features": {
+        "numerical": [
+            "car_age",
+            "km_driven",
+            "mileage_kmpl",
+            "engine_cc",
+            "max_power_bhp",
+            "seats"
+        ],
+        "categorical": [
+            "brand",
+            "model",
+            "fuel",
+            "seller_type",
+            "transmission",
+            "owner",
+            "city",
+            "condition"
+        ]
+    },
+    "brands": [
+        "Audi",
+        "Bmw",
+        "Chevrolet",
+        "Datsun",
+        "Fiat",
+        "Force",
+        "Ford",
+        "Honda",
+        "Hyundai",
+        "Isuzu",
+        "Jaguar",
+        "Jeep",
+        "Land",
+        "Lexus",
+        "Mahindra",
+        "Maruti",
+        "Mercedes-Benz",
+        "Mitsubishi",
+        "Nissan",
+        "Renault",
+        "Skoda",
+        "Tata",
+        "Toyota",
+        "Volkswagen",
+        "Volvo"
+    ],
+    "fuels": [
+        "CNG",
+        "Diesel",
+        "LPG",
+        "Petrol"
+    ],
+    "transmissions": [
+        "Automatic",
+        "Manual"
+    ],
+    "owners": [
+        "First Owner",
+        "Second Owner",
+        "Third Owner",
+        "Fourth & Above Owner"
+    ],
+    "cities": [
+        "Ahmedabad",
+        "Bangalore",
+        "Chandigarh",
+        "Chennai",
+        "Delhi",
+        "Hyderabad",
+        "Jaipur",
+        "Kolkata",
+        "Mumbai",
+        "Pune"
+    ],
+    "conditions": [
+        "Excellent",
+        "Good",
+        "Fair"
+    ],
+    "metrics": {
+        "linear_regression": {
+            "model": "Linear Regression",
+            "r2_score": 0.8894,
+            "mae": 136773.57,
+            "rmse": 293176.73,
+            "mape": 32.69
+        },
+        "random_forest": {
+            "model": "Random Forest Regressor",
+            "r2_score": 0.9439,
+            "mae": 75057.59,
+            "rmse": 208831.36,
+            "mape": 15.88
+        }
+    }
+}
